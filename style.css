@@ -1,0 +1,301 @@
+/* Palet Warna */
+:root {
+    --bg1:#1f2233; 
+    --box:#30364e;     
+    --btn:#f5c680; 
+    --txt:#cabba9; 
+    --crd:#2b2f48; 
+    --btn2:#313247; 
+    --menu:#2d2e4a;
+} 
+
+/* Reset */
+* {
+    font:inherit;
+    margin: 0;
+    padding: 0;
+} 
+
+/* Warna Dasar */
+body {
+    background-color:var(--bg1);
+    line-height: 2;
+    color: #ddd;
+} a {
+    color: #fff;
+    font-weight: bold;
+} 
+
+/* Button */
+.btn {
+    background-color: var(--btn2);
+    border: 2px solid var(--btn);
+} .btn:hover {
+    background-color:var(--btn);
+    border: 2px solid var(--btn);
+    color: var(--bg1);
+} .btn2 {
+    border: 2px solid #ddd;
+    color: #fff;
+} .btn2:hover {
+    background-color: #ddd;
+    border: 2px solid #ddd;
+    color: var(--bg1);
+} 
+
+/* JARAK */
+section.konten,
+section.myGallery,
+section.testimoni,
+section.project, 
+section.sosialMedia {
+    margin-top: 50px;
+} footer {
+    margin-top: 100px;
+}
+
+/* Section Home
+----------------------
+-> Logo             */
+ header .logo {
+    display: flex;
+    align-items: baseline;
+} header h4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+} /* 
+
+-> Menu           */
+header .btn {width: 70px;}
+
+/* Menu UL Header dan .... */
+.nav > li > a:focus, 
+.nav > li > a:hover {
+    background-color:var(--btn);
+    border: unset;
+    color: var(--bg1);
+} 
+
+/* Section Hero 
+-----------------------  */
+.jumbotron {background-color:unset;}
+.jumbotron h3 {color: var(--btn);}
+.jumbotron h1,
+.jumbotron h3 {
+    font-family: 'Dancing Script', cursive;
+} 
+
+/* Section Konten 
+------------------------- */
+.konten .menu2 {background-color:var(--menu);} 
+.konten .myContent {background-color:var(--box);}
+.konten .myContent h1 {
+    font-size:4rem;
+} 
+
+/* Section Project 
+-------------------------- */
+.project .thumbnail {background-color:var(--box);} 
+.project .paragraph {margin: 20px 0;}
+.project .judul {margin: 30px 0;}
+
+
+/* Section Testimoni 
+-------------------------- */
+.testimoni .judul {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom:3rem;
+} .testimoni .review {
+    display: flex;
+    flex-wrap: wrap;
+} .testimoni .box {
+    background-color:var(--box);
+    margin: 5px;
+    flex:1;
+} .testimoni .box .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} .testimoni i {
+    font-size: 3rem;
+}
+
+
+/* Section myGallery */
+.myGallery .judul {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom:3rem; 
+} .myGallery .box {
+    margin-bottom: 20px;
+    margin-top: 20px;
+} .myGallery .gambar {
+    display: flex;
+    justify-content: center;
+} .myGallery .gambar img {
+    border: 2px solid var(--btn);
+    transition: all 200ms ease 0s;
+} .myGallery .gambar img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+
+/* Section Sosial Media */
+.sosialMedia .row1 {background-color:var(--menu);}
+.sosialMedia .row1 h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom:3rem;
+} 
+
+.sosialMedia ul li p {font-weight: bold;}
+.sosialMedia i {font-size: 5rem;}
+.sosialMedia a .row {
+    display: flex;
+    align-items: center;
+} 
+
+
+
+/* Footer */
+footer span {font-size: 3rem;}
+footer .row:last-child {margin-top: 20px;}
+footer .container {background-color:var(--crd);}
+footer .row:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Menu Toggle */
+.menu-toggle {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    top:-40px;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    grid-template-columns: 1fr;
+    align-content: space-around;
+} .menu-toggle span {
+    transition: all 200ms ease 0s;
+    width: 30px;
+    height: 4px;
+    display: block;
+    background-color: #ddd;
+} .menu-toggle input {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    z-index: 99;
+    opacity: 0;
+    top: -3px;
+} .menu-toggle input:checked ~ span:first-of-type {
+    transform: rotate(45deg) translate(6px,7px);
+} .menu-toggle input:checked ~ span:last-of-type {
+    transform: rotate(-45deg) translate(9px,-11px);
+} .menu-toggle input:checked ~ span:nth-child(3) {
+    transform:scale(0);
+}
+
+
+
+
+
+/* RWD - MOBILE XS */ 
+@media screen and (max-width:760px) {
+    /* Style Dasar */
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    /* HEADER */
+    header .nav > li > a:focus, 
+    header .nav > li > a:hover {
+        background-color:unset;
+        border: unset;
+        color: #fff;
+    } header .nav > li {
+        font-size: 10px;
+    } header .nav > li > a {
+        display:inline;
+    } header .nav li a {
+        color: #ddd;
+        font-weight: bold;
+        transition: all 500ms ease 0s;
+    } 
+
+    /* SECTION HERO */
+    .hero .btn {font-size: 10px;} 
+    .hero .introduce {text-align: center;} 
+    .hero .introduce h1 {display: none;} 
+    .hero img {width: 50%;} 
+    .hero .images {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* All Jumbotron */
+    .jumbotron p {
+        font-size: 13px;
+        text-align: center;
+    } 
+    
+    /* Section KOnten */
+    .konten .myContent h1 {
+        font-size:3rem;
+        text-align: center;
+        position: relative;
+        top: -40px;
+    } 
+
+    /* Section sosial Media */
+    .sosialMedia a .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    /* Section MyGallery */
+    .gambar {margin: 20px 0;} 
+    .gambar img {width: 100%;}
+
+
+    /* Footer */
+    footer h2 {font-size: 20px;}
+    footer span {font-size: 26px;} 
+    footer .row:first-child {align-items: baseline;}
+    
+
+    /* Menu TOggle */
+    .menu-toggle {
+        display: grid;
+    } .menu ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: space-evenly;
+        z-index: 1;
+        position: absolute;
+        height: 100vh;
+        background-color:var(--bg1);
+        opacity: 1;
+        top: -48px;
+        right: 0;
+        left: 0;
+        height: 100vh;
+        transform: translateY(-110%);
+        transition: all 200ms ease 0s;
+        opacity: 0;
+    } .menu ul.slide {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
