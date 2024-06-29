@@ -11,6 +11,22 @@
     }
 }
 
+
+
+.dashboard {
+    .hello-box {
+        width: 75%;
+        gap: pxtovw(20, 767);
+        h1 {
+            font-size: pxtovw(54, 767);
+        } p {
+            font-size: pxtovw(23, 767);
+        } button {
+            font-size: pxtovw(23, 767);
+        }
+    }
+}
+
 .dashboard {
     .components {
         .stars {
@@ -31,10 +47,10 @@
         } 
         
         .moon {
-            left: 15%;
-            top: 15%;
-            height: pxtovw(450, 1920);
-            width: pxtovw(450, 1920);
+            left: 6%;
+            top: 6%;
+            height: pxtovw(300, 1920);
+            width: pxtovw(300, 1920);
         } .mountain {
             position:absolute; 
             width: 200%; 

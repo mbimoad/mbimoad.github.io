@@ -19,6 +19,19 @@
               transform: translate(-100%, 50px);
     }
   }
+  .dashboard .hello-box {
+    width: 75%;
+    gap: 2.60756vw;
+  }
+  .dashboard .hello-box h1 {
+    font-size: 7.04042vw;
+  }
+  .dashboard .hello-box p {
+    font-size: 2.9987vw;
+  }
+  .dashboard .hello-box button {
+    font-size: 2.9987vw;
+  }
   .dashboard .components .stars {
     display: none;
   }
@@ -37,10 +50,10 @@
             animation: stars_animate  30s linear 0s infinite;
   }
   .dashboard .components .moon {
-    left: 15%;
-    top: 15%;
-    height: 23.4375vw;
-    width: 23.4375vw;
+    left: 6%;
+    top: 6%;
+    height: 15.625vw;
+    width: 15.625vw;
   }
   .dashboard .components .mountain {
     position: absolute;
