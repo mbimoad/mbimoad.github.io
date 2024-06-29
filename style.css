@@ -58,6 +58,10 @@ body.light .dashboard {
   background-image: linear-gradient(#1E799D, #97D7E8);
 }
 
+body.light .dashboard .components .stars, body.light .dashboard .components .moon {
+  display: none;
+}
+
 .dashboard {
   overflow: hidden;
   width: 100%;
@@ -76,6 +80,18 @@ body.light .dashboard {
 }
 
 .dashboard .components .stars .star {
+  width: 100%;
+  -webkit-animation: stars_animate  30s linear 0s infinite;
+          animation: stars_animate  30s linear 0s infinite;
+}
+
+.dashboard .components .clouds {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dashboard .components .clouds .cloud {
   width: 100%;
   -webkit-animation: stars_animate  30s linear 0s infinite;
           animation: stars_animate  30s linear 0s infinite;

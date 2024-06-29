@@ -14,13 +14,23 @@
 .dashboard {
     .components {
         .stars {
-            display:flex;
+            display:none;
             .star {    
                 transform: translate(0, 50px);
                 width: 300%; 
                 animation: stars_animate  30s linear 0s infinite; 
             }
-        } .moon {
+        } 
+
+        .clouds {
+            .cloud {    
+                transform: translate(0, 50px);
+                width: 200%; 
+                animation: stars_animate  30s linear 0s infinite; 
+            }
+        } 
+        
+        .moon {
             left: 15%;
             top: 15%;
             height: pxtovw(450, 1920);

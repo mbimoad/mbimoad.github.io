@@ -20,14 +20,19 @@
     }
   }
   .dashboard .components .stars {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
   }
   .dashboard .components .stars .star {
     -webkit-transform: translate(0, 50px);
             transform: translate(0, 50px);
     width: 300%;
+    -webkit-animation: stars_animate  30s linear 0s infinite;
+            animation: stars_animate  30s linear 0s infinite;
+  }
+  .dashboard .components .clouds .cloud {
+    -webkit-transform: translate(0, 50px);
+            transform: translate(0, 50px);
+    width: 200%;
     -webkit-animation: stars_animate  30s linear 0s infinite;
             animation: stars_animate  30s linear 0s infinite;
   }

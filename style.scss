@@ -35,6 +35,11 @@ body.dark {
 body.light {
     .dashboard {
         background-image: $lght_background;
+        .components {
+            .stars,.moon {
+                display:none;
+            }
+        }
     }
 }
 
@@ -49,6 +54,14 @@ body.light {
         .stars {
             display:flex;
             .star {    
+                width: 100%; 
+                animation: stars_animate  30s linear 0s infinite; 
+            }
+        }
+
+        .clouds {
+            display:flex;
+            .cloud {    
                 width: 100%; 
                 animation: stars_animate  30s linear 0s infinite; 
             }
