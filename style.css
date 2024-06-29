@@ -94,4 +94,10 @@ body.light .dashboard {
   -webkit-animation: moon_animate 1s ease 0s infinite alternate;
           animation: moon_animate 1s ease 0s infinite alternate;
 }
+
+.dashboard .components .mountain {
+  position: absolute;
+  width: 100%;
+  bottom: -30%;
+}
 /*# sourceMappingURL=style.css.map */

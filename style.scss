@@ -64,6 +64,10 @@ body.light {
             border-radius: 50%; 
             box-shadow: 0 0 pxtovw(5, 1920) black;
             animation: moon_animate 1s ease 0s infinite alternate;
+        } .mountain {
+            position:absolute; 
+            width: 100%; 
+            bottom: -30%; 
         }
     }
 }
