@@ -58,7 +58,7 @@ button {
   position: absolute;
   left: 0;
   right: 0;
-  top: 20%;
+  top: 15%;
   margin: auto;
   text-align: center;
   z-index: 9;
@@ -86,6 +86,7 @@ button {
 
 .dashboard .hello-box p {
   font-size: 1.04167vw;
+  line-height: 1.5625vw;
 }
 
 .dashboard .hello-box button {
@@ -109,6 +110,10 @@ body.dark .dashboard .components .clouds {
 body.light .dashboard {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#1E799D), to(#97D7E8));
   background-image: linear-gradient(#1E799D, #97D7E8);
+}
+
+body.light .dashboard .hello-box button {
+  background: #F69E56;
 }
 
 body.light .dashboard .components .stars, body.light .dashboard .components .moon {
@@ -156,6 +161,8 @@ body.light .dashboard .components .stars, body.light .dashboard .components .moo
   width: 100%;
   -webkit-animation: stars_animate  30s linear 0s infinite;
           animation: stars_animate  30s linear 0s infinite;
+  -webkit-filter: brightness(0.93);
+          filter: brightness(0.93);
 }
 
 .dashboard .components .moon {

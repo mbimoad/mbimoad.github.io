@@ -37,7 +37,7 @@ button {
         position:absolute; 
         left: 0; 
         right: 0;
-        top: 20%;
+        top: 15%;
         margin: auto;
         text-align:center;
         z-index: 9;
@@ -52,6 +52,7 @@ button {
             font-weight: bold;
         } p {
             font-size: pxtovw(20, 1920);
+            line-height: pxtovw(30, 1920);
         } button {
             font-size: pxtovw(20, 1920);
             padding: pxtovw(5, 1920) pxtovw(40, 1920);
@@ -74,7 +75,13 @@ body.dark {
     }
 }
 body.light {
+
     .dashboard {
+        .hello-box { 
+            button {
+                background: $lght_purple2; 
+            }
+        }
         background-image: $lght_background;
         .components {
             .stars,.moon {
@@ -109,6 +116,7 @@ body.light {
             .cloud {    
                 width: 100%; 
                 animation: stars_animate  30s linear 0s infinite; 
+                filter:brightness(.93);
             }
         }
 
