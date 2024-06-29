@@ -49,8 +49,82 @@
   }
 }
 
+header {
+  padding: 1.04167vw 1.5625vw;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: unset;
+  z-index: 999;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+header .logo h1 {
+  font-size: 2.08333vw;
+  font-weight: bold;
+}
+
+header .logo span {
+  font-size: 1.30208vw;
+}
+
+header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5625vw;
+  list-style: none;
+}
+
+header .menu li a {
+  color: white;
+  font-size: 1.30208vw;
+}
+
+header .option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.04167vw;
+}
+
+header .option svg {
+  width: 1.5625vw;
+  height: auto;
+}
+
+header .option .optionbtn svg {
+  pointer-events: none;
+}
+
 button {
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }
 
 .dashboard .hello-box {
@@ -58,7 +132,7 @@ button {
   position: absolute;
   left: 0;
   right: 0;
-  top: 15%;
+  top: 19%;
   margin: auto;
   text-align: center;
   z-index: 9;
@@ -161,8 +235,8 @@ body.light .dashboard .components .stars, body.light .dashboard .components .moo
   width: 100%;
   -webkit-animation: stars_animate  30s linear 0s infinite;
           animation: stars_animate  30s linear 0s infinite;
-  -webkit-filter: brightness(0.93);
-          filter: brightness(0.93);
+  -webkit-filter: brightness(0.93) opacity(0.7);
+          filter: brightness(0.93) opacity(0.7);
 }
 
 .dashboard .components .moon {

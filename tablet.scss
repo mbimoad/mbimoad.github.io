@@ -12,16 +12,70 @@
 }
 
 
+header {
+    z-index: 9999999;
+    padding: pxtovw(100, 1920) pxtovw(80, 1920);
+    .logo {
+        display:flex; 
+        align-items: center;
+        color:white;
+        h1 {
+            font-size: pxtovw(40, 767);
+            font-weight: bold; 
+        } span {
+            font-size: pxtovw(25, 767); 
+
+        }
+    }
+
+    .menu {
+        width: 85%;
+        
+        left: 0; 
+        right: 0; 
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        gap: pxtovw(30, 767); 
+        li a {
+            color:white; 
+            font-size: pxtovw(25, 767);
+        }
+        position: fixed;
+        bottom: pxtovw(150, 1920);
+    }
+
+    .option {
+        
+        display:flex; 
+        align-items: center;
+        gap: pxtovw(20, 767);
+        svg {
+            width: pxtovw(30, 767); 
+            height: auto;
+        }
+
+        .optionbtn {
+            
+            svg {
+              
+                pointer-events:none;
+            }
+        }
+    }
+}
+
 
 .dashboard {
     .hello-box {
+        top: 30%;
         width: 75%;
         gap: pxtovw(20, 767);
         h1 {
             font-size: pxtovw(54, 767);
         } p {
             font-size: pxtovw(23, 767);
-            line-height: pxtovw(30, 767);
+            line-height: pxtovw(40, 767);
         } button {
             font-size: pxtovw(23, 767);
         }
@@ -49,7 +103,7 @@
         
         .moon {
             left: 6%;
-            top: 6%;
+            top: 12%;
             height: pxtovw(300, 1920);
             width: pxtovw(300, 1920);
         } .mountain {
