@@ -68,6 +68,26 @@ body.light {
             position:absolute; 
             width: 100%; 
             bottom: -30%; 
+        } .pohon1 {
+            position: absolute;
+            z-index: 999;
+            bottom: -10%; 
+            left:-8%;
+            width: 100%;
+        } .layer1 {
+            position:absolute;
+            width: 100%; 
+            right: -10%; 
+            bottom: 0;
+            z-index: 9;
+            bottom:-35%;
+
+        } .pohon2 {
+            width: 30%; 
+            position:absolute; 
+            z-index: 10;
+            bottom: -10%; 
+            right: -10%; 
         }
     }
 }

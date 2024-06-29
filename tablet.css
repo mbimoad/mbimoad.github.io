@@ -43,5 +43,12 @@
     bottom: 0%;
     left: -50%;
   }
+  .dashboard .components .pohon1 {
+    width: 300%;
+    left: -70%;
+  }
+  .dashboard .components .pohon2, .dashboard .components .layer1 {
+    display: none;
+  }
 }
 /*# sourceMappingURL=tablet.css.map */

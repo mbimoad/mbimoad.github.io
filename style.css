@@ -100,4 +100,29 @@ body.light .dashboard {
   width: 100%;
   bottom: -30%;
 }
+
+.dashboard .components .pohon1 {
+  position: absolute;
+  z-index: 999;
+  bottom: -10%;
+  left: -8%;
+  width: 100%;
+}
+
+.dashboard .components .layer1 {
+  position: absolute;
+  width: 100%;
+  right: -10%;
+  bottom: 0;
+  z-index: 9;
+  bottom: -35%;
+}
+
+.dashboard .components .pohon2 {
+  width: 30%;
+  position: absolute;
+  z-index: 10;
+  bottom: -10%;
+  right: -10%;
+}
 /*# sourceMappingURL=style.css.map */
