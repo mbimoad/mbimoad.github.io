@@ -94,4 +94,45 @@ body.light .dashboard {
   -webkit-animation: moon_animate 1s ease 0s infinite alternate;
           animation: moon_animate 1s ease 0s infinite alternate;
 }
-/*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width: 767px) {
+  @-webkit-keyframes stars_animate {
+    from {
+      -webkit-transform: translate(0, 50px);
+              transform: translate(0, 50px);
+    }
+    to {
+      -webkit-transform: translate(-100%, 50px);
+              transform: translate(-100%, 50px);
+    }
+  }
+  @keyframes stars_animate {
+    from {
+      -webkit-transform: translate(0, 50px);
+              transform: translate(0, 50px);
+    }
+    to {
+      -webkit-transform: translate(-100%, 50px);
+              transform: translate(-100%, 50px);
+    }
+  }
+  .dashboard .components .stars {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .dashboard .components .stars .star {
+    -webkit-transform: translate(0, 50px);
+            transform: translate(0, 50px);
+    width: 300%;
+    -webkit-animation: stars_animate  30s linear 0s infinite;
+            animation: stars_animate  30s linear 0s infinite;
+  }
+  .dashboard .components .moon {
+    left: 15%;
+    top: 15%;
+    height: 23.4375vw;
+    width: 23.4375vw;
+  }
+}
+/*# sourceMappingURL=tablet.css.map */
