@@ -54,13 +54,15 @@ header {
         gap: pxtovw(30, 767); 
         li a {
             color:white; 
-            font-size: pxtovw(25, 767);
+            font-size: pxtovw(20, 767);
+        } li {
+            text-align: center;
         }
         position: fixed;
         bottom: pxtovw(70, 767);
         li svg {
             display:unset;
-            width: pxtovw(40, 767);
+            width: pxtovw(30, 767);
         } li {
             display:flex; 
             flex-direction: column;

@@ -64,11 +64,14 @@
   }
   header .menu li a {
     color: white;
-    font-size: 3.25945vw;
+    font-size: 2.60756vw;
+  }
+  header .menu li {
+    text-align: center;
   }
   header .menu li svg {
     display: unset;
-    width: 5.21512vw;
+    width: 3.91134vw;
   }
   header .menu li {
     display: -webkit-box;
