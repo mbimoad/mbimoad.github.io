@@ -19,9 +19,15 @@
               transform: translate(-100%, 50px);
     }
   }
+  body.dark header .menu {
+    background: #2f14814a;
+  }
+  body.light header .menu {
+    background: #1459814a;
+  }
   header {
     z-index: 9999999;
-    padding: 5.20833vw 4.16667vw;
+    padding: 5.21512vw 5.21512vw;
   }
   header .logo {
     display: -webkit-box;
@@ -31,9 +37,10 @@
         -ms-flex-align: center;
             align-items: center;
     color: white;
+    gap: 0.65189vw;
   }
   header .logo h1 {
-    font-size: 5.21512vw;
+    font-size: 6.5189vw;
     font-weight: bold;
   }
   header .logo span {
@@ -41,6 +48,7 @@
   }
   header .menu {
     width: 85%;
+    border-radius: 19.55671vw;
     left: 0;
     right: 0;
     margin: auto;
@@ -52,11 +60,31 @@
             align-items: center;
     gap: 3.91134vw;
     position: fixed;
-    bottom: 7.8125vw;
+    bottom: 9.12647vw;
   }
   header .menu li a {
     color: white;
     font-size: 3.25945vw;
+  }
+  header .menu li svg {
+    display: unset;
+    width: 5.21512vw;
+  }
+  header .menu li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1.56454vw;
   }
   header .option {
     display: -webkit-box;
@@ -89,9 +117,6 @@
   .dashboard .hello-box button {
     font-size: 2.9987vw;
   }
-  .dashboard .components .stars {
-    display: none;
-  }
   .dashboard .components .stars .star {
     -webkit-transform: translate(0, 50px);
             transform: translate(0, 50px);
@@ -109,8 +134,8 @@
   .dashboard .components .moon {
     left: 6%;
     top: 12%;
-    height: 15.625vw;
-    width: 15.625vw;
+    height: 13.03781vw;
+    width: 13.03781vw;
   }
   .dashboard .components .mountain {
     position: absolute;

@@ -100,6 +100,10 @@ header .menu li a {
   font-size: 1.30208vw;
 }
 
+header .menu li svg {
+  display: none;
+}
+
 header .option {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -172,6 +176,10 @@ a {
   outline: unset;
 }
 
+body.dark header {
+  background: #2f14814a;
+}
+
 body.dark .dashboard {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#312A5D), to(#7B85BE));
   background-image: linear-gradient(#312A5D, #7B85BE);
@@ -179,6 +187,10 @@ body.dark .dashboard {
 
 body.dark .dashboard .components .clouds {
   display: none;
+}
+
+body.light header {
+  background: #1459814a;
 }
 
 body.light .dashboard {

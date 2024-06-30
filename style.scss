@@ -60,6 +60,8 @@ header {
         li a {
             color:white; 
             font-size: pxtovw(25, 1920);
+        } li svg {
+            display:none;
         }
     }
 

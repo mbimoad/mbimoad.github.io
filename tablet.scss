@@ -11,16 +11,31 @@
     }
 }
 
+body.dark {
+    header {
+        .menu {
+            background: $dark_header;
+        }
+    }
+}
+body.light {
+    header {
+        .menu {
+            background: $lght_header;
+        }
+    }
+}
 
 header {
     z-index: 9999999;
-    padding: pxtovw(100, 1920) pxtovw(80, 1920);
+    padding: pxtovw(40, 767) pxtovw(40, 767);
     .logo {
         display:flex; 
         align-items: center;
         color:white;
+        gap: pxtovw(5, 767);
         h1 {
-            font-size: pxtovw(40, 767);
+            font-size: pxtovw(50, 767);
             font-weight: bold; 
         } span {
             font-size: pxtovw(25, 767); 
@@ -30,7 +45,7 @@ header {
 
     .menu {
         width: 85%;
-        
+        border-radius: pxtovw(150, 767);
         left: 0; 
         right: 0; 
         margin: auto;
@@ -42,7 +57,17 @@ header {
             font-size: pxtovw(25, 767);
         }
         position: fixed;
-        bottom: pxtovw(150, 1920);
+        bottom: pxtovw(70, 767);
+        li svg {
+            display:unset;
+            width: pxtovw(40, 767);
+        } li {
+            display:flex; 
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:pxtovw(12, 767);
+        }
     }
 
     .option {
@@ -85,7 +110,7 @@ header {
 .dashboard {
     .components {
         .stars {
-            display:none;
+        
             .star {    
                 transform: translate(0, 50px);
                 width: 300%; 
@@ -104,8 +129,8 @@ header {
         .moon {
             left: 6%;
             top: 12%;
-            height: pxtovw(300, 1920);
-            width: pxtovw(300, 1920);
+            height: pxtovw(100, 767);
+            width: pxtovw(100, 767);
         } .mountain {
             position:absolute; 
             width: 200%; 
