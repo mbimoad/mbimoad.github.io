@@ -123,6 +123,9 @@ button {
 }
 
 body.dark {
+    header {
+        background: $dark_header; 
+    }
     .dashboard {
         background-image: $dark_background;
         .components {
@@ -133,7 +136,9 @@ body.dark {
     }
 }
 body.light {
-
+    header {
+        background: $lght_header; 
+    }
     .dashboard {
         .hello-box { 
             button {
