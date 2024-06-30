@@ -51,7 +51,8 @@ header {
         margin: auto;
         justify-content: center;
         align-items: center;
-        gap: pxtovw(30, 767); 
+        gap: pxtovw(40, 767); 
+        padding: pxtovw(10, 767) 0;
         li a {
             color:white; 
             font-size: pxtovw(20, 767);
@@ -63,6 +64,7 @@ header {
         li svg {
             display:unset;
             width: pxtovw(30, 767);
+            height: pxtovw(30, 767);
         } li {
             display:flex; 
             flex-direction: column;
