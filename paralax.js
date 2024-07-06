@@ -1,10 +1,13 @@
 const mountain = document.querySelector('.mountain')
 const pohon1   = document.querySelector('.pohon1')
+const layer1   = document.querySelector('.layer1')
 const aboutme  = document.querySelector('.aboutme')
 const boxinfo  = document.querySelector('.box-info1')
+const boxinfo2  = document.querySelector('.box-info2')
 const supportbox  = document.querySelector('.supportbox')
-const layer1  = document.querySelector('.layer1')
 const pohon2  = document.querySelector('.pohon2')
+const hellobox  = document.querySelector('.hello-box')
+
 
 let bottom  = this.getStyle(mountain, 'bottom');
 let count   = 30; 
@@ -13,73 +16,180 @@ let bottom2 = 10;
 let top2 = 100;
 let layer1_v = 100;
 let pohon2_v = 30; 
+var isScrolling = false;
+var isInitialized = false;
+let width2 = 0; 
+let support = 0; 
+let support2 = 0; 
+let support3 = 0; 
+
 window.addEventListener('wheel', function(e) {
-    // Mountain
+    // Support Variable
     if(e.deltaY > 0) {
-        if(count >= 30 && count <= 50) {
-            count += 5;
-            mountain.style.bottom = `-${count}%`;
+        support++; 
+        support2++; 
+    }
+    else {
+        if(support > 0) {
+            support--; 
+            support2--;
         }
-        
-    } else {
-        if(count > 30) {
-            count -= 5;
-            mountain.style.bottom = `-${count}%`;
-        }
-        
+        else {
+            support = 0;
+            support2 = 0;
+            isInitialized = false; 
+        } 
     }
 
+    // Activate Scrolling
+    if(support != 0) {
+        isScrolling = true; 
+    } 
 
-
-    if(e.deltaY > 0) {
-        
-        if(width <= 160) {
-            width += 10; 
-            pohon1.style.width = `${width}%`;
-            
-        }
-        
-    } else {
-        if(width >= 100) {
-            width -= 20; 
-            pohon1.style.width = `${width}%`;
+    // Mountain Handling
+    if(isScrolling) {
+        if(e.deltaY > 0) {
+            if(count >= 30 && count <= 50) {
+                count += 5;
+                mountain.style.bottom = `-${count}%`;
+            }
+        } else {
+            if(count > 30) {
+                if(support == 0) {
+                    count -= 5;
+                    mountain.style.bottom = `-${count}%`;
+                }
+                
+            } 
         }
     }
-    console.log(width);
 
-    if(e.deltaY > 0) {
-        if(width >= 170) {
-            // body.classList.add('oFlowUnset');
-            bottom2 += 10;
-            top2 -= 10;
-            pohon1.style.bottom = `${bottom2}%`;
-            boxinfo.style.top = `${top2}%`;
-            supportbox.style.opacity = 1;
-            
-            if(bottom2 >= 170) {
-                layer1_v += 15; 
-                pohon2_v -= 1; 
-                mountain.style.opacity = 0;
-                layer1.style.width = `${layer1_v}%`;
-                pohon2.style.width = `${pohon2_v}%`;
+    // Tree1 Handling
+    if(isScrolling)
+    {
+        if(e.deltaY > 0) {
+            if(width <= 160 && support > 0) {
+                width += 10; 
+                pohon1.style.width = `${width}%`;   
+            }  
+        } else {
+            if(width >= 100) {
+                if(width == 100) 
+                {
+                    if(support == 0) pohon1.style.width = `${width}%`;
+                } else {
+                    if(support == 0) {
+                        width -= 20; 
+                        pohon1.style.width = `${width}%`;
+                    }
+                }
             }
         }
-    } else {
-        if(width <= 90) {
-            bottom2 -= 10;
-            top2 += 10;
-            pohon1.style.bottom = `${bottom2}%`;
-            boxinfo.style.top = `${top2}%`;
-            supportbox.style.opacity = 1;
+    }
+    
+    // Support Box Handling
+    if(isScrolling)
+    {
+        if(e.deltaY > 0) 
+        {
+            if(width >= 170)
+            {
+                bottom2 += 10;
+                top2 -= 10;
+                pohon1.style.bottom = `${bottom2}%`;
+                boxinfo.style.top = `${top2}%`;
+                supportbox.style.opacity = 1;
+                isInitialized = true; 
+            
+            }
+            
+        } else {
+            
+            if(isInitialized) 
+            {
+        
+                if(top2 < 100) {
+                    top2 += 10;
+                } else {
+                    top2 = 120;
+                }
+
+                if(bottom2 > 10) {
+                    bottom2 -= 10;
+                } else {
+                    bottom2 = -10;
+                }
+                boxinfo.style.top = `${top2}%`;
+                pohon1.style.bottom = `${bottom2}%`;
+                supportbox.style.opacity = 1;
+            }
         }
     }
 
 
+    // boxinfo2 
+    if(isScrolling) {
+        if(e.deltaY > 0) {
+            if(bottom2 >= 170) {
+                boxinfo2.classList.add('active');
+                pohon1.classList.add('active');
+                hellobox.classList.add('active');
+                pohon2.classList.add('active');
+                layer1.classList.add('active');
+            }
+
+            if(bottom2 >= 290) {
+                boxinfo2.classList.add('onScroll');
+                support3++; 
+            }
+
+         
 
 
+            if(support3 >= 18) {
+                boxinfo2.classList.add('switch');
+                pohon2.classList.add('off');
+                layer1.classList.add('off');
+                mountain.classList.add('active');
+            }
 
 
+            
+        } else {
+            if(bottom2 <= 120) {
+                boxinfo2.classList.remove('active');
+                pohon1.classList.remove('active');
+                hellobox.classList.remove('active');
+                pohon2.classList.remove('active');
+                layer1.classList.remove('active');
+            }
+
+            if(support3 < 10) {
+                mountain.classList.remove('active');
+            }
+
+            if(support3 < 18) {
+                boxinfo2.classList.remove('switch');
+                pohon2.classList.remove('off');
+                layer1.classList.remove('off');
+                
+                
+            }
+            if(support3 > 0)  support3--; 
+            else              support3 = 0;
+
+            if(bottom2 <= 290) {
+                boxinfo2.classList.remove('onScroll');
+            }
+        }
+    }
 
 
+    console.log(`width: ${width} | support ${support}`)
+    console.log(`top2: ${top2} | bottom2 ${bottom2}`)
+    console.log("==========================")
+    console.log(`support3: ${support3}`)
+
+    // 
 
 })

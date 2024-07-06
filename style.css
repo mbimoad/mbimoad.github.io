@@ -336,6 +336,576 @@ body > div.box-info1 > div.about-me.skill.testi > div.testi-items.owl-carousel.o
           filter: grayscale(1);
 }
 
+.box-info2.active {
+  display: unset;
+}
+
+.box-info2.active.onScroll {
+  overflow: auto;
+}
+
+.box-info2.active.onScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.box-info2.active.onScroll.switch {
+  -webkit-transform: translate(100%, 0);
+          transform: translate(100%, 0);
+  opacity: 0;
+}
+
+.box-info2 {
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: #312a5d;
+  z-index: 5;
+}
+
+.box-info2 .section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2.08333vw;
+  padding: 0 2.08333vw;
+  margin-top: 6.25vw;
+}
+
+.box-info2 .about-me.skill.testi {
+  background: unset;
+}
+
+.box-info2 .about-me.skill {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: unset;
+}
+
+.box-info2 .about-me.skill .testi-items .card {
+  background: #2f14814a;
+  width: 23.4375vw;
+  padding: 1.04167vw;
+  border-radius: 1.04167vw;
+}
+
+.box-info2 .about-me.skill .testi-items .card .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5625vw;
+  position: relative;
+  margin-bottom: 1.04167vw;
+}
+
+.box-info2 .about-me.skill .testi-items .card .header img {
+  border-radius: 0.78125vw;
+  top: -2.34375vw;
+  position: absolute;
+  width: 3.64583vw;
+  height: 3.64583vw;
+  border: 0.15625vw solid #6b0aeb;
+}
+
+.box-info2 .about-me.skill .testi-items .card .header span {
+  -webkit-transform: translate(4.6875vw, 0);
+          transform: translate(4.6875vw, 0);
+  font-size: 1.14583vw;
+}
+
+.box-info2 .about-me.skill .testi-items .card .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 0.52083vw;
+}
+
+.box-info2 .about-me.skill .testi-items .card .footer .left,
+.box-info2 .about-me.skill .testi-items .card .footer .right {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.52083vw;
+}
+
+.box-info2 .about-me.skill .testi-items .card .footer span {
+  font-size: 0.78125vw;
+}
+
+.box-info2 .about-me.skill .testi-items .card .footer img {
+  width: 1.04167vw;
+  height: 1.04167vw;
+}
+
+.box-info2 .about-me.skill .testi-items .card p {
+  font-size: 0.9375vw;
+}
+
+.box-info2 .about-me.skill .skill-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+
+.box-info2 .about-me.skill .skill-items .icon {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1.04167vw;
+}
+
+.box-info2 .about-me.skill .skill-items .icon span {
+  font-size: 1.04167vw;
+}
+
+.box-info2 .about-me.skill .skill-items .icon svg {
+  width: 3.125vw;
+  height: 3.125vw;
+}
+
+.box-info2 .about-me.skill .skill-items .icon img {
+  width: 7.8125vw;
+  height: auto;
+}
+
+.box-info2 .about-me.skill .skill-title {
+  margin-bottom: 3.125vw;
+  text-align: center;
+}
+
+.box-info2 .about-me.skill .skill-title h1 {
+  font-size: 2.08333vw;
+  font-weight: bold;
+}
+
+.box-info2 .about-me.skill .skill-title p {
+  margin-top: 0.52083vw;
+  width: 36.45833vw;
+  font-size: 1.04167vw;
+  line-height: 1.30208vw;
+}
+
+.box-info2 .about-me.skill.education {
+  padding: 1.5625vw;
+  padding-bottom: 2.60417vw;
+}
+
+.box-info2 .about-me.skill.education .skill-title {
+  margin-bottom: 2.08333vw;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs {
+  padding-left: 3.125vw;
+  border-left: 0.52083vw solid #0100307a;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2.08333vw;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box:nth-child(even) {
+  background: #16005a;
+  border: 0.26042vw solid #00ccff;
+  -webkit-box-shadow: 0 0 0.52083vw #00ccff;
+          box-shadow: 0 0 0.52083vw #00ccff;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box:nth-child(odd) {
+  background: #0100307a;
+  border: 0.26042vw solid #0dffb0;
+  -webkit-box-shadow: 0 0 0.52083vw #0dffb0;
+          box-shadow: 0 0 0.52083vw #0dffb0;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box:nth-child(even)::after {
+  background: #00ccff;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box:nth-child(odd)::after {
+  background: #0dffb0;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box::after {
+  position: absolute;
+  content: '';
+  width: 1.5625vw;
+  height: 1.5625vw;
+  top: 40%;
+  left: -4.42708vw;
+  border-radius: 50%;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box {
+  position: relative;
+  border-radius: 1.04167vw;
+  padding: 1.04167vw 1.5625vw;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box .semi-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.78125vw;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box .header h3 {
+  font-size: 1.5625vw;
+  font-weight: bold;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box .header .calendar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.52083vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box .header .calendar svg {
+  width: 0.83333vw;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box .header .calendar span {
+  font-size: 0.9375vw;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box .semi-header svg {
+  width: 0.83333vw;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box .semi-header span {
+  color: #eeff00;
+  font-size: 0.9375vw;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box ul.job-desk {
+  margin-left: 1.5625vw;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box ul.job-desk li {
+  font-size: 0.98958vw;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box .footer {
+  margin-top: 0.78125vw;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box .footer span {
+  font-size: 0.9375vw;
+}
+
+.box-info2 .about-me.skill.education .skill-items.education .boxs .box .footer span:last-child {
+  color: #00ccff;
+}
+
+.box-info2 .searchs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1.04167vw;
+}
+
+.box-info2 .searchs button.submit {
+  background: #6b0aeb;
+  color: white;
+  padding: 0.26042vw;
+  border: unset;
+  outline: unset;
+  font-size: 0.9375vw;
+}
+
+.box-info2 .about-me {
+  padding: 3.125vw 3.125vw;
+  border-radius: 1.04167vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #2f14814a;
+  -webkit-box-shadow: 0 0 0.26042vw #7B85BE;
+          box-shadow: 0 0 0.26042vw #7B85BE;
+}
+
+.box-info2 .about-me .left {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.04167vw;
+}
+
+.box-info2 .about-me .left h5 {
+  font-size: 1.30208vw;
+}
+
+.box-info2 .about-me .left h1 {
+  font-size: 3.125vw;
+  font-weight: bold;
+}
+
+.box-info2 .about-me .left p {
+  font-size: 1.19792vw;
+  line-height: 2.03125vw;
+}
+
+.box-info2 .about-me .left .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.78125vw;
+}
+
+.box-info2 .about-me .left .buttons .button {
+  padding: 0.15625vw 0.26042vw;
+  background: transparent;
+  border-radius: 0.26042vw;
+  font-size: 0.98958vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  background: #6b0aeb;
+}
+
+.box-info2 .about-me .left .buttons .button svg {
+  width: 0.98958vw;
+  height: 0.98958vw;
+}
+
+.box-info2 .about-me .left .buttons .buttonicon svg {
+  width: 1.04167vw;
+  height: 1.04167vw;
+}
+
+.box-info2 .about-me .right {
+  width: 20%;
+}
+
+.box-info2 .about-me .right .frame {
+  position: relative;
+}
+
+.box-info2 .about-me .right .frame .rectangle {
+  border-radius: 50%;
+  top: -1.04167vw;
+  right: 1.04167vw;
+  position: absolute;
+  width: 18.22917vw;
+  height: 18.22917vw;
+  background: transparent;
+  border: 1.30208vw solid #ffef35;
+  -webkit-box-shadow: 0 0 2.60417vw #ffef35;
+          box-shadow: 0 0 2.60417vw #ffef35;
+  z-index: 9;
+}
+
+.box-info2 .about-me .right .frame img {
+  width: 75%;
+  border-radius: 0 0 20% 20%;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.box-info2 .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5625vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.box-info2 .cards .card {
+  -webkit-box-shadow: 0 0 0.78125vw #6b0aeb;
+          box-shadow: 0 0 0.78125vw #6b0aeb;
+  border-radius: 0.78125vw;
+  background: #17054d;
+  border: 0.26042vw solid #6b0aeb;
+  color: white;
+  width: 18.22917vw;
+}
+
+.box-info2 .cards .card .images {
+  position: relative;
+  padding: 0.52083vw;
+}
+
+.box-info2 .cards .card .images img {
+  width: 100%;
+}
+
+.box-info2 .cards .card .images a.github {
+  position: absolute;
+  border-radius: 50%;
+  background: #6b0aeb;
+  width: 1.5625vw;
+  height: 1.5625vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.box-info2 .cards .card .images a.github svg {
+  width: 0.78125vw;
+  height: auto;
+}
+
+.box-info2 .cards .card .detail {
+  text-align: center;
+  padding: 0.78125vw;
+  padding-top: unset;
+  background: #18025a;
+}
+
+.box-info2 .cards .card .detail h3 {
+  font-weight: bold;
+  font-size: 1.5625vw;
+}
+
+.box-info2 .cards .card .detail p {
+  font-size: 0.88542vw;
+}
+
+.box-info2 .cards .card .footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.26042vw;
+  margin-bottom: 0.52083vw;
+}
+
+.box-info2 .cards .card .footer span {
+  font-size: 0.9375vw;
+}
+
+.box-info2 .cards .card .footer span:nth-child(2n) {
+  color: #ff0d86;
+}
+
+.box-info2 .cards .card .footer span:nth-child(3n) {
+  color: #00ccff;
+}
+
+.box-info2 .cards .card .footer span:nth-child(4n) {
+  color: #eeff00;
+}
+
 header {
   padding: 1.04167vw 1.5625vw;
   position: absolute;
@@ -417,6 +987,10 @@ button {
 
 a {
   text-decoration: none;
+}
+
+.dashboard .hello-box.active {
+  display: none;
 }
 
 .dashboard .hello-box {
@@ -562,6 +1136,12 @@ body.light .dashboard .components .stars, body.light .dashboard .components .moo
   bottom: -30%;
 }
 
+.dashboard .components .mountain.active {
+  -webkit-transition: unset;
+  transition: unset;
+  opacity: 0;
+}
+
 .dashboard .components .pohon1 {
   position: absolute;
   z-index: 999;
@@ -570,6 +1150,10 @@ body.light .dashboard .components .stars, body.light .dashboard .components .moo
   width: 100%;
   -webkit-transition: all 500ms ease 0s;
   transition: all 500ms ease 0s;
+}
+
+.dashboard .components .pohon1.active {
+  display: none;
 }
 
 .dashboard .components .layer1 {
@@ -583,11 +1167,78 @@ body.light .dashboard .components .stars, body.light .dashboard .components .moo
   bottom: -35%;
 }
 
+.dashboard .components .layer1.active {
+  bottom: -60%;
+}
+
+.dashboard .components .layer1.active.off {
+  opacity: 0;
+}
+
+.dashboard .components .pohon2.active {
+  width: 20%;
+  position: absolute;
+  z-index: 10;
+  bottom: -11%;
+  right: -6%;
+}
+
+.dashboard .components .pohon2.active.off {
+  opacity: 0;
+}
+
 .dashboard .components .pohon2 {
   width: 30%;
   position: absolute;
   z-index: 10;
   bottom: -10%;
   right: -10%;
+}
+
+body > div.box-info2 > div > div > div.skill-title > div > span {
+  width: 15.625vw !important;
+  background: #0100307a;
+  overflow: hidden !important;
+}
+
+body > div.box-info2 > div > div > div.skill-title > div > span > span.selection > span {
+  background: transparent !important;
+  border: unset !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.select2-container .select2-selection--multiple .select2-selection__rendered {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.select2-container .select2-selection--multiple .select2-selection__rendered li:nth-child(1n) {
+  background: #ff0d86 !important;
+}
+
+.select2-container .select2-selection--multiple .select2-selection__rendered li:nth-child(2n) {
+  background: #6b0aeb !important;
+}
+
+.select2-container .select2-selection--multiple .select2-selection__rendered li:nth-child(3n) {
+  background: #00ccff !important;
+}
+
+.select2-container .select2-selection--multiple .select2-selection__rendered li:nth-child(4n) {
+  background: #eeff00 !important;
+}
+
+.select2-container .select2-selection--multiple .select2-selection__rendered li button, .select2-container .select2-selection--multiple .select2-selection__rendered li span {
+  border: unset !important;
+  color: white !important;
+  font-size: 0.9375vw !important;
+}
+
+.select2-container .select2-selection--multiple .select2-selection__rendered li button {
+  width: 0.67708vw;
+  height: 0.67708vw;
 }
 /*# sourceMappingURL=style.css.map */
