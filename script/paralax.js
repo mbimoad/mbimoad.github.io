@@ -161,33 +161,12 @@ window.addEventListener('wheel', function(e) {
             
             
         } else {
-            if(bottom2 <= 120) {
-                boxinfo2.classList.remove('active');
-                pohon1.classList.remove('active');
-                hellobox.classList.remove('active');
-                pohon2.classList.remove('active');
-                layer1.classList.remove('active');
-            }
-
-            if(support3 < 10) {
-                mountain.classList.remove('active');
-                info.classList.remove('active');
-            }
-
-            
-
-            if(!reachTheBottom) {
-                boxinfo2.classList.remove('switch');
-                pohon2.classList.remove('off');
-                layer1.classList.remove('off');
-            }
+            validateStyle()
 
             if(support3 > 0)  support3--; 
             else              support3 = 0;
 
-            if(bottom2 <= 290) {
-                boxinfo2.classList.remove('onScroll');
-            }
+           
 
             
         }
@@ -200,6 +179,33 @@ window.addEventListener('wheel', function(e) {
     // console.log(`support3: ${support3}`)
 
 })
+
+function validateStyle() {
+    if(bottom2 <= 120) {
+        boxinfo2.classList.remove('active');
+        pohon1.classList.remove('active');
+        hellobox.classList.remove('active');
+        pohon2.classList.remove('active');
+        layer1.classList.remove('active');
+    }
+
+    if(support3 < 10) {
+        mountain.classList.remove('active');
+        info.classList.remove('active');
+    }
+
+    
+
+    if(!reachTheBottom) {
+        boxinfo2.classList.remove('switch');
+        pohon2.classList.remove('off');
+        layer1.classList.remove('off');
+    }
+
+    if(bottom2 <= 290) {
+        boxinfo2.classList.remove('onScroll');
+    }
+}
 
 
 boxinfo2.addEventListener('scroll', function(e) {
@@ -249,10 +255,14 @@ menu.forEach(item => item.addEventListener('click', function(e) {
        isScrolling = true;
        isInitialized = true;
        reachTheBottom = false; 
+       
        pohon1.style.bottom = `${bottom2}%`;
        pohon1.style.width = `${width}%`;   
        mountain.style.bottom = `-${count}%`;
        boxinfo.style.top = `${top2}%`;
+       setTimeout(() => {
+        validateStyle(); 
+       }, 200)
    } else if(this.innerText.toLowerCase() == 'testimonial') {
         count = 55; 
         width = 170; 
@@ -264,6 +274,19 @@ menu.forEach(item => item.addEventListener('click', function(e) {
         isScrolling = true;
         isInitialized = true;
         reachTheBottom = false; 
+        if(bottom2 >= 170) {
+            boxinfo2.classList.add('active');
+            pohon1.classList.add('active');
+            hellobox.classList.add('active');
+            pohon2.classList.add('active');
+            layer1.classList.add('active');
+
+            if(bottom2 >= 290) {
+                boxinfo2.classList.add('onScroll');
+                support3++; 
+            }
+        }
+
         pohon1.style.bottom = `${bottom2}%`;
         pohon1.style.width = `${width}%`;   
         mountain.style.bottom = `-${count}%`;
@@ -279,10 +302,16 @@ menu.forEach(item => item.addEventListener('click', function(e) {
         isScrolling = true;
         isInitialized = true;
         reachTheBottom = false; 
+
+        
+
+
         pohon1.style.bottom = `${bottom2}%`;
         pohon1.style.width = `${width}%`;   
         mountain.style.bottom = `-${count}%`;
         boxinfo.style.top = `${top2}%`;
+
+       
     } 
     
 
@@ -390,6 +419,27 @@ menu.forEach(item => item.addEventListener('click', function(e) {
             behavior: 'smooth', 
             block: 'start',
         })
+    }
+
+
+
+    else if(this.innerText.toLowerCase() == 'home') {
+        count = 30; 
+        width = 90; 
+        bottom2 = -10; 
+        top2 = 120; 
+        support = 0; 
+        support2 = 0; 
+        support3 = 0; 
+        isScrolling = false;
+        isInitialized = false;
+        reachTheBottom = false; 
+        
+        pohon1.style.bottom = `${bottom2}%`;
+        pohon1.style.width = `${width}%`;   
+        mountain.style.bottom = `-${count}%`;
+        boxinfo.style.top = `${top2}%`;
+        validateStyle();
     }
 
 }))
