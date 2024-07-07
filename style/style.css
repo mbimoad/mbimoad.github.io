@@ -1241,4 +1241,80 @@ body > div.box-info2 > div > div > div.skill-title > div > span > span.selection
   width: 0.67708vw;
   height: 0.67708vw;
 }
+
+.info.active {
+  display: unset;
+}
+
+.info {
+  display: none;
+  position: absolute;
+  gap: 1.04167vw;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: white;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.info h3 {
+  font-size: 2.60417vw;
+  font-weight: bold;
+}
+
+.info span {
+  font-size: 1.14583vw;
+}
+
+.info .buttons {
+  margin-top: 1.5625vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.04167vw;
+}
+
+.info .buttons a {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.26042vw 0.52083vw;
+  gap: 0.52083vw;
+}
+
+.info .buttons a svg {
+  width: 1.30208vw;
+  height: auto;
+}
+
+.info .buttons a span {
+  font-size: 1.04167vw;
+}
+
+.info .buttons a:nth-child(1) {
+  background: #6b0aeb;
+}
+
+.info .buttons a:nth-child(2) {
+  background: #6b0aeb;
+}
+
+.info .buttons a:nth-child(3) {
+  background: #6b0aeb;
+}
+
+.info .buttons a:nth-child(4) {
+  background: #6b0aeb;
+}
 /*# sourceMappingURL=style.css.map */

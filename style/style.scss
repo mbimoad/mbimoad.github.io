@@ -887,3 +887,50 @@ body > div.box-info2 > div > div > div.skill-title > div > span > span.selection
         }
     }
 }
+
+.info.active {
+    display:unset;
+}
+.info {
+    display:none;
+    position:absolute; 
+    gap:pxtovw(20, 1920);
+    top: 50%;  
+    left: 50%; 
+    text-align:center; 
+    color:white; 
+    transform: translate(-50%, -50%);
+    h3 {
+        font-size: pxtovw(50, 1920); 
+        font-weight: bold; 
+    } span {
+        font-size: pxtovw(22, 1920);
+        
+    }
+
+    .buttons {
+        margin-top: pxtovw(30, 1920);
+        display:flex; 
+        align-items:center; 
+        justify-content: center; 
+        gap: pxtovw(20, 1920);
+        a {
+            color:white; 
+            display:flex; 
+            align-items:center; 
+            padding: pxtovw(5, 1920) pxtovw(10, 1920); 
+            gap: pxtovw(10, 1920);
+            svg {
+                width: pxtovw(25, 1920); 
+                height: auto; 
+            } span {
+                font-size: pxtovw(20, 1920);
+            }
+        }
+
+        a:nth-child(1) {background: $dark_purple4;}
+        a:nth-child(2) {background: $dark_purple4;}
+        a:nth-child(3) {background: $dark_purple4;}
+        a:nth-child(4) {background: $dark_purple4;}
+    }
+}

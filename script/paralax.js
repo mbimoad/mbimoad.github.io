@@ -7,6 +7,7 @@ const boxinfo2  = document.querySelector('.box-info2')
 const supportbox  = document.querySelector('.supportbox')
 const pohon2  = document.querySelector('.pohon2')
 const hellobox  = document.querySelector('.hello-box')
+const info  = document.querySelector('.info')
 
 
 let bottom  = this.getStyle(mountain, 'bottom');
@@ -136,21 +137,31 @@ window.addEventListener('wheel', function(e) {
                 hellobox.classList.add('active');
                 pohon2.classList.add('active');
                 layer1.classList.add('active');
+
+                if(bottom2 >= 290) {
+                    boxinfo2.classList.add('onScroll');
+                    support3++; 
+                }
+
             }
 
-            if(bottom2 >= 290) {
-                boxinfo2.classList.add('onScroll');
-                support3++; 
-            }
+            if(bottom2  >= 470) bottom2 = 470
+            if(top2 <= -360) top2 = -360; 
+            if(support >= 52) support = 52;
+            
+
+            
 
          
 
 
-            if(support3 >= 18) {
+            if(support3 >= 19) {
                 boxinfo2.classList.add('switch');
                 pohon2.classList.add('off');
                 layer1.classList.add('off');
                 mountain.classList.add('active');
+                info.classList.add('active');
+                support3 = 19; 
             }
 
 
@@ -166,6 +177,7 @@ window.addEventListener('wheel', function(e) {
 
             if(support3 < 10) {
                 mountain.classList.remove('active');
+                info.classList.remove('active');
             }
 
             if(support3 < 18) {
