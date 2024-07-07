@@ -1,3 +1,6 @@
+if(window.innerWidth >= 768) {
+
+
 const mountain = document.querySelector('.mountain')
 const pohon1   = document.querySelector('.pohon1')
 const layer1   = document.querySelector('.layer1')
@@ -24,6 +27,7 @@ let support3 = 0;
 let reachTheBottom = false; 
 
 window.addEventListener('wheel', function(e) {
+    console.log("kesini")
     // Support Variable
     if(e.deltaY > 0) {
         support++; 
@@ -443,3 +447,51 @@ menu.forEach(item => item.addEventListener('click', function(e) {
     }
 
 }))
+
+
+
+
+} else {
+
+
+    document.addEventListener('scroll', function(e) {
+        console.log("kesini")
+    })
+
+    const menu = document.querySelectorAll('ul.menu li'); 
+    menu.forEach(item => item.addEventListener('click', function(e) {
+       e.preventDefault();
+       if(this.innerText.toLowerCase() == 'about') {
+            let idmenu = document.getElementById('about')
+            idmenu.scrollIntoView({
+                behavior: 'smooth', 
+                block: 'start',
+            })
+       } else if(this.innerText.toLowerCase() == 'testimonial') {
+        let idmenu = document.getElementById('testi')
+        idmenu.scrollIntoView({
+            behavior: 'smooth', 
+            block: 'start',
+        })
+        } else if(this.innerText.toLowerCase() == 'skill') {
+            let idmenu = document.getElementById('skill')
+            idmenu.scrollIntoView({
+                behavior: 'smooth', 
+                block: 'start',
+            })
+       } else if(this.innerText.toLowerCase() == 'portfolio') {
+        let idmenu = document.getElementById('projects')
+        idmenu.scrollIntoView({
+            behavior: 'smooth', 
+            block: 'start',
+        })
+        }   else if(this.innerText.toLowerCase() == 'experience') {
+            let idmenu = document.getElementById('experience')
+            idmenu.scrollIntoView({
+                behavior: 'smooth', 
+                block: 'start',
+            })
+            } 
+    }));
+
+}

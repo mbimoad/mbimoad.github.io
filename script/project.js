@@ -56,7 +56,7 @@ const data = [
       "tags": ["PHP MVC", "SASS"]
     },
     {
-      "title": "Corona Virus Landing Page",
+      "title": "Corona Virus Profile",
       "github": "#",
       "image": "./port/64267c64bec17.webp",
       "description": "A responsive HTML, CSS, and JS project designed to provide vital information and resources during the pandemic.",

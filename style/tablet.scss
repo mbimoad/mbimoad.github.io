@@ -2,6 +2,128 @@
 
 
 @media screen and (max-width: 767px) {
+
+body {
+    overflow:unset;
+}
+
+header {
+    position:fixed;
+    top: 0;
+}
+
+.box-info1 {
+    .about-me.skill {
+        .skill-title {
+            margin-bottom: pxtovw(60, 767);
+            h1 {
+                font-size: pxtovw(40, 767);
+                font-weight: bold;    
+            } p {
+                margin-top: pxtovw(10, 767);
+                width: pxtovw(700, 767);
+                font-size: pxtovw(20, 767);
+                line-height: pxtovw(25, 767);
+            }
+        }
+        .skill-items {
+            .icon {
+                gap: pxtovw(20, 767);
+                span {
+                    font-size: pxtovw(20, 767); 
+                } svg {
+                    width: pxtovw(60, 767);
+                    height: pxtovw(60, 767);
+                }
+            }
+        }
+        .testi-items {
+            .card {
+                width: pxtovw(450, 767);
+                padding: pxtovw(20, 767);
+                .header {
+                    margin-bottom: pxtovw(20, 767);
+                    img {
+                        border-radius: pxtovw(15, 767);
+                        top: pxtovw(-45, 767);
+                        width: pxtovw(70, 767);
+                        height:pxtovw(70, 767);
+                        border: pxtovw(3, 767) solid $dark_purple4;
+                        
+                    }
+                    span {
+                        font-size: pxtovw(22, 767);
+                        transform: translate(pxtovw(90, 767), 0);
+                    }
+                } .footer {
+                    .left,
+                    .right {
+                        gap: pxtovw(10, 767); 
+                        margin:unset;
+                    }
+                    margin-top: pxtovw(30, 767);
+                    span {
+                        font-size: pxtovw(15, 767);
+                        line-height: 1.5;
+                    } img {
+                        width: pxtovw(20, 767);
+                        height: pxtovw(20, 767);
+                    }
+                }
+                
+                
+                p {
+                    font-size: pxtovw(18, 767);
+                }
+            }
+        }
+    }
+    .about-me {
+        padding: pxtovw(80, 767) pxtovw(40, 767);
+        flex-direction: column-reverse;
+        .right {
+            width: 40%;
+            .frame {
+                .rectangle {
+                    width: pxtovw(270, 767); 
+                    height: pxtovw(270, 767); 
+                }
+            }
+            margin-bottom: pxtovw(30, 767);
+        }
+        .left {width: unset;}
+        .left {
+            h5 {
+                font-size: pxtovw(25, 767);
+            } h1 {
+                font-size: pxtovw(60, 767);
+                font-weight: bold;
+            } p {
+                font-size: pxtovw(23, 767);
+                line-height: pxtovw(39, 767);
+            } .button {
+               
+                
+            } .buttons {
+                gap: pxtovw(15, 767);
+                .button {
+                    font-size: pxtovw(20, 767);
+                    svg {
+                        width: pxtovw(19, 767);
+                        height: pxtovw(19, 767);
+                    }
+                }
+                .buttonicon {
+              
+                    svg {
+                        width: pxtovw(19, 767);
+                        height:pxtovw(19, 767);;
+                    }
+                }
+            }
+        }
+    }
+}
     
 @keyframes stars_animate {
     from {
@@ -53,10 +175,15 @@ header {
         align-items: center;
         gap: pxtovw(40, 767); 
         padding: pxtovw(10, 767) 0;
+        li:nth-child(1),
+        li:nth-child(5) {
+            display:none;
+        }
         li a {
             color:white; 
             font-size: pxtovw(20, 767);
         } li {
+            cursor:pointer;
             text-align: center;
         }
         position: fixed;
@@ -148,6 +275,276 @@ header {
         }
     }
 }
+
+
+.box-info2 {
+    display:unset;
+}
+
+.box-info1,
+.box-info2 {
+    position:unset;
+}
+
+.box-info2 {
+
+
+    .about-me.skill.education {
+        padding: pxtovw(30, 767);
+        padding-bottom: pxtovw(50, 767);
+        .skill-title {
+            margin-bottom: pxtovw(40, 767);
+        }
+        .skill-items.education {
+            display:flex; 
+            justify-content:center;
+            align-items: center;
+            .boxs {
+                padding-left: pxtovw(30, 767);
+                border-left: pxtovw(10, 767) solid $dark_input;
+                width: 85%;
+                // border: 1px solid red;
+                display:flex; 
+                flex-direction:column;
+                gap: pxtovw(40, 767);
+                .box:nth-child(even) {
+                    background: $dark_jobs;
+                    border: pxtovw(5, 767) solid $dark_cyan; 
+                    box-shadow: 0 0 pxtovw(10, 767) $dark_cyan; 
+                } .box:nth-child(odd) {
+                    background: $dark_input;
+                    border: pxtovw(5, 767) solid $dark_green; 
+                    box-shadow: 0 0 pxtovw(10, 767) $dark_green; 
+                }
+
+                .box:nth-child(even)::after {
+                    background: $dark_cyan;
+                    
+                }
+
+                .box:nth-child(odd)::after {
+                    background:$dark_green;
+                }
+
+                .box::after {
+                    position:absolute; 
+                    content: ''; 
+                    // left: 0;
+                    width: pxtovw(30, 767); 
+                    height: pxtovw(30, 767);
+             
+                    top: 40%;
+                    left: pxtovw(-55, 767);
+                    border-radius: 50%;
+                }
+                .box {
+                    position:relative;
+                    border-radius: pxtovw(20, 767);
+                    padding: pxtovw(20, 767) pxtovw(30, 767);
+                    .semi-header {
+                        display:flex; 
+                        align-items:center;
+                        gap: pxtovw(15, 767);
+                    }
+                    .header {
+                        display:flex; 
+                        align-items:flex-end;
+                        justify-content:space-between;
+                        h3 {
+                            font-size: pxtovw(25, 767);
+                            font-weight: bold;
+                            // color: $dark_yellow;
+                        } .calendar {
+                            display:flex; 
+                            gap: pxtovw(5, 767); 
+                            align-items:center;
+                            svg {
+                                width: pxtovw(13, 767);
+                            } span {
+                                // color:$dark_red;
+                                font-size: pxtovw(15, 767);
+                            }
+                        }
+                    } .semi-header {
+                        svg {
+                            width: pxtovw(16, 767);
+                        } span {
+                            color:$dark_yellow;
+                            font-size: pxtovw(18, 767);
+                        }
+                    } ul.job-desk {
+                        margin-left: pxtovw(30, 767);
+                        li {
+                            font-size: pxtovw(19, 767); 
+                        } 
+                    } .footer {
+                        margin-top: pxtovw(15, 767);
+                        span {
+                            font-size: pxtovw(18, 767);
+                        } span:last-child {
+                            color: $dark_cyan;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .searchs {
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        margin-top: pxtovw(20, 767);
+        button.submit {
+            background: $dark_purple4; 
+            color:white; 
+            padding: pxtovw(5, 767); 
+            border: unset; 
+            outline: unset; 
+            font-size: pxtovw(18, 767);
+        }
+    }
+
+
+    .section1 {
+        gap:pxtovw(40, 767);
+        padding: 0 pxtovw(25, 767);  
+        margin-top: pxtovw(120, 767);
+    }
+    .about-me.skill {
+        .skill-items {
+            width: 100%;
+            display:grid; 
+            grid-template-columns: repeat(2, 1fr);
+            gap: pxtovw(150, 767);
+            justify-items:center;
+            justify-content: center;
+            align-items:center;
+            align-content:center;
+            .icon {
+
+                gap: pxtovw(20, 767);
+                span {
+                    font-size: pxtovw(20, 767); 
+                } svg {
+                    width: pxtovw(60, 767);
+                    height: pxtovw(60, 767);
+                } img {
+                    width: pxtovw(150, 767);
+                    height: auto;
+                }
+            } 
+            
+        }
+        .skill-title {
+            margin-bottom: pxtovw(20, 767);
+            text-align:center; 
+            padding: pxtovw(40, 767) pxtovw(80, 767);
+            h1 {
+                font-size: pxtovw(40, 767);
+                font-weight: bold;
+            } p {
+                margin-top: pxtovw(10, 767);
+                width: pxtovw(700, 767);
+                font-size: pxtovw(20, 767);
+                line-height: pxtovw(25, 767);
+            }
+        }
+
+        .cards {
+            gap: pxtovw(30, 767);
+        }
+
+        .card {
+            width: pxtovw(280, 767);
+            padding: pxtovw(10, 767);
+            border-radius: pxtovw(20, 767);
+            .header {
+                gap: pxtovw(30, 767);
+                margin-bottom: pxtovw(20, 767);
+                img {
+                    border-radius: pxtovw(15, 767);
+                    top: pxtovw(-45, 767);
+                    width: pxtovw(70, 767);
+                    height:pxtovw(70, 767);
+                    border: pxtovw(3, 767) solid $dark_purple4;
+                } span {
+                    transform: translate(pxtovw(90, 767), 0);
+                    font-size: pxtovw(22, 767);
+                } 
+            }  .detail {
+                text-align:center;
+                padding:pxtovw(15, 767);
+                padding-top: unset;
+                background:$dark_header2;    
+                h3 {
+                    font-weight:bold;
+                    font-size: pxtovw(25, 767);
+                } p {
+                    font-size: pxtovw(17, 767);
+                }
+            }  
+            
+            .footer {
+                .left,
+                    .right {
+          
+                        gap: pxtovw(10, 767); 
+                    }
+                    margin-top: pxtovw(10, 767);
+                    span {
+                        font-size: pxtovw(15, 767);
+                    } img {
+                        width: pxtovw(20, 767);
+                        height: pxtovw(20, 767);
+                    }
+            }  p {
+                font-size: pxtovw(18, 767);
+            }
+        }
+    }
+}
+
+
+
+body > div.box-info2 > div > div > div.skill-title > div > span {
+    width: pxtovw(300, 767) !important;
+    background: $dark_input; 
+    overflow:hidden !important;
+}
+
+body > div.box-info2 > div > div > div.skill-title > div > span > span.selection > span {
+    background:transparent !important;  
+    border: unset !important; 
+    display:flex !important;
+}
+
+.select2-container .select2-selection--multiple .select2-selection__rendered {
+    display:flex !important;
+    li:nth-child(1n) {
+        background: $dark_red !important;
+    } li:nth-child(2n) {
+        background: $dark_purple4 !important;
+    } li:nth-child(3n) {
+        background: $dark_cyan !important;
+    } li:nth-child(4n) {
+        background: $dark_yellow !important;
+    }
+    li {
+
+        button, span {
+            border: unset !important;
+            color: $white !important;
+            font-size: pxtovw(18, 767) !important; 
+        } button {
+            width: pxtovw(13, 767); 
+            height: pxtovw(13, 767);
+        }
+    }
+}
+
 
 
 }
