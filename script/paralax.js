@@ -15,14 +15,13 @@ let count   = 30;
 let width   = 100;
 let bottom2 = 10;
 let top2 = 100;
-let layer1_v = 100;
-let pohon2_v = 30; 
 var isScrolling = false;
 var isInitialized = false;
 let width2 = 0; 
 let support = 0; 
 let support2 = 0; 
 let support3 = 0; 
+let reachTheBottom = false; 
 
 window.addEventListener('wheel', function(e) {
     // Support Variable
@@ -31,6 +30,7 @@ window.addEventListener('wheel', function(e) {
         support2++; 
     }
     else {
+        reachTheBottom = false;
         if(support > 0) {
             support--; 
             support2--;
@@ -148,14 +148,9 @@ window.addEventListener('wheel', function(e) {
             if(bottom2  >= 470) bottom2 = 470
             if(top2 <= -360) top2 = -360; 
             if(support >= 52) support = 52;
-            
 
-            
-
-         
-
-
-            if(support3 >= 19) {
+            if(reachTheBottom) 
+            {
                 boxinfo2.classList.add('switch');
                 pohon2.classList.add('off');
                 layer1.classList.add('off');
@@ -163,8 +158,7 @@ window.addEventListener('wheel', function(e) {
                 info.classList.add('active');
                 support3 = 19; 
             }
-
-
+            
             
         } else {
             if(bottom2 <= 120) {
@@ -180,28 +174,222 @@ window.addEventListener('wheel', function(e) {
                 info.classList.remove('active');
             }
 
-            if(support3 < 18) {
+            
+
+            if(!reachTheBottom) {
                 boxinfo2.classList.remove('switch');
                 pohon2.classList.remove('off');
                 layer1.classList.remove('off');
-                
-                
             }
+
             if(support3 > 0)  support3--; 
             else              support3 = 0;
 
             if(bottom2 <= 290) {
                 boxinfo2.classList.remove('onScroll');
             }
+
+            
         }
     }
 
 
-    console.log(`width: ${width} | support ${support}`)
-    console.log(`top2: ${top2} | bottom2 ${bottom2}`)
-    console.log("==========================")
-    console.log(`support3: ${support3}`)
-
-    // 
+    // console.log(`width: ${width} | support ${support}`)
+    // console.log(`top2: ${top2} | bottom2 ${bottom2}`)
+    // console.log("==========================")
+    // console.log(`support3: ${support3}`)
 
 })
+
+
+boxinfo2.addEventListener('scroll', function(e) {
+    const scrollTop = this.scrollTop;
+    const scrollHeight = this.scrollHeight;
+    const clientHeight = this.clientHeight;
+
+    console.log(`${scrollTop + clientHeight + 10} > ${scrollHeight}`)
+
+    if ((scrollTop + clientHeight + 10) >= scrollHeight) {
+        reachTheBottom = true; 
+    } else {
+        reachTheBottom = false; 
+    }
+})
+
+const explore = document.querySelector('.explore'); 
+explore.addEventListener('click', function() {
+    count = 55; 
+    width = 170; 
+    bottom2 = 110; 
+    top2 = 0; 
+    support = 16; 
+    support2 = 16; 
+    support3 = 0; 
+    isScrolling = true;
+    isInitialized = true;
+    reachTheBottom = false; 
+    pohon1.style.bottom = `${bottom2}%`;
+    pohon1.style.width = `${width}%`;   
+    mountain.style.bottom = `-${count}%`;
+    boxinfo.style.top = `${top2}%`;
+})
+
+
+const menu = document.querySelectorAll('ul.menu li'); 
+menu.forEach(item => item.addEventListener('click', function(e) {
+   e.preventDefault();
+   if(this.innerText.toLowerCase() == 'about') {
+       count = 55; 
+       width = 170; 
+       bottom2 = 110; 
+       top2 = 0; 
+       support = 16; 
+       support2 = 16; 
+       support3 = 0; 
+       isScrolling = true;
+       isInitialized = true;
+       reachTheBottom = false; 
+       pohon1.style.bottom = `${bottom2}%`;
+       pohon1.style.width = `${width}%`;   
+       mountain.style.bottom = `-${count}%`;
+       boxinfo.style.top = `${top2}%`;
+   } else if(this.innerText.toLowerCase() == 'testimonial') {
+        count = 55; 
+        width = 170; 
+        bottom2 = 170; 
+        top2 = -60; 
+        support = 22; 
+        support2 = 22; 
+        support3 = 0; 
+        isScrolling = true;
+        isInitialized = true;
+        reachTheBottom = false; 
+        pohon1.style.bottom = `${bottom2}%`;
+        pohon1.style.width = `${width}%`;   
+        mountain.style.bottom = `-${count}%`;
+        boxinfo.style.top = `${top2}%`;
+    } else if(this.innerText.toLowerCase() == 'skill') {
+        count = 55; 
+        width = 170; 
+        bottom2 = 220; 
+        top2 = -110; 
+        support = 27; 
+        support2 = 27; 
+        support3 = 0; 
+        isScrolling = true;
+        isInitialized = true;
+        reachTheBottom = false; 
+        pohon1.style.bottom = `${bottom2}%`;
+        pohon1.style.width = `${width}%`;   
+        mountain.style.bottom = `-${count}%`;
+        boxinfo.style.top = `${top2}%`;
+    } 
+    
+
+
+    else if(this.innerText.toLowerCase() == 'portfolio') {
+        count = 55; 
+        width = 170; 
+        bottom2 = 350; 
+        top2 = -270; 
+        support = 40; 
+        support2 = 40; 
+        support3 = 8; 
+        isScrolling = true;
+        isInitialized = true;
+        reachTheBottom = false; 
+        pohon1.style.bottom = `${bottom2}%`;
+        pohon1.style.width = `${width}%`;   
+        mountain.style.bottom = `-${count}%`;
+        boxinfo.style.top = `${top2}%`;
+        if(bottom2 >= 170) {
+            boxinfo2.classList.add('active');
+            pohon1.classList.add('active');
+            hellobox.classList.add('active');
+            pohon2.classList.add('active');
+            layer1.classList.add('active');
+
+            if(bottom2 >= 290) {
+                boxinfo2.classList.add('onScroll');
+                support3++; 
+            }
+        }
+
+        let projectid = document.getElementById('projects')
+        projectid.scrollIntoView({
+            behavior: 'smooth', 
+            block: 'start',
+        })
+    }
+
+    else if(this.innerText.toLowerCase() == 'experience') {
+        count = 55; 
+        width = 170; 
+        bottom2 = 460; 
+        top2 = -350; 
+        support = 51; 
+        support2 = 51; 
+        support3 = 29; 
+        isScrolling = true;
+        isInitialized = true;
+        reachTheBottom = false; 
+        pohon1.style.bottom = `${bottom2}%`;
+        pohon1.style.width = `${width}%`;   
+        mountain.style.bottom = `-${count}%`;
+        boxinfo.style.top = `${top2}%`;
+        if(bottom2 >= 170) {
+            boxinfo2.classList.add('active');
+            pohon1.classList.add('active');
+            hellobox.classList.add('active');
+            pohon2.classList.add('active');
+            layer1.classList.add('active');
+
+            if(bottom2 >= 290) {
+                boxinfo2.classList.add('onScroll');
+                support3++; 
+            }
+        }
+
+        let experienceid = document.getElementById('experience')
+        experienceid.scrollIntoView({
+            behavior: 'smooth', 
+            block: 'start',
+        })
+    }
+
+    else if(this.innerText.toLowerCase() == 'clients') {
+        count = 55; 
+        width = 170; 
+        bottom2 = 290; 
+        top2 = -180; 
+        support = 34; 
+        support2 = 34; 
+        support3 = 1; 
+        isScrolling = true;
+        isInitialized = true;
+        reachTheBottom = false; 
+        pohon1.style.bottom = `${bottom2}%`;
+        pohon1.style.width = `${width}%`;   
+        mountain.style.bottom = `-${count}%`;
+        boxinfo.style.top = `${top2}%`;
+        if(bottom2 >= 170) {
+            boxinfo2.classList.add('active');
+            pohon1.classList.add('active');
+            hellobox.classList.add('active');
+            pohon2.classList.add('active');
+            layer1.classList.add('active');
+
+            if(bottom2 >= 290) {
+                boxinfo2.classList.add('onScroll');
+                support3++; 
+            }
+        }
+
+        let clientsid = document.getElementById('clients')
+        clientsid.scrollIntoView({
+            behavior: 'smooth', 
+            block: 'start',
+        })
+    }
+
+}))

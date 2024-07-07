@@ -554,11 +554,24 @@ body > div.box-info1 > div.about-me.skill.testi > div.testi-items.owl-carousel.o
     .cards {
         display:flex; 
         gap: pxtovw(30, 1920);
-        align-items:center; 
         justify-content: center; 
         flex-wrap:wrap;
+        .card.active:hover,
+        .card:hover {
+            transform: scale(1.05);
+        }
+
         
+        $detik: 200ms; 
+        .card.active {
+            transform: scale(1);
+            opacity: 1; 
+            transition: all $detik ease 0s;
+        }
         .card {
+            transform: scale(0); 
+            opacity: 0; 
+            transition: all $detik ease 0s;
             box-shadow: 0 0 pxtovw(15, 1920) $dark_purple4;
             border-radius: pxtovw(15, 1920);
             background: $dark_header3;
@@ -688,7 +701,7 @@ button {
         display:none;
     }
     .hello-box {
-        
+        transition: all 500ms ease 0s;
         width: pxtovw(500, 1920);
         position:absolute; 
         left: 0; 
@@ -827,8 +840,7 @@ body.light {
             bottom: -60%; 
         } .layer1.active.off {
             opacity:0;
-        } 
-        
+        }   
         .pohon2.active {
             width: 20%;
             position: absolute;
@@ -837,10 +849,8 @@ body.light {
             right: -6%;
         } .pohon2.active.off {
             opacity:0; 
-        }
-        
-        .pohon2 {
-         
+        } .pohon2 {
+            transition: all 500ms ease 0s;
             width: 30%; 
             position:absolute; 
             z-index: 10;
@@ -849,8 +859,6 @@ body.light {
         }
     }
 }
-
-
 
 body > div.box-info2 > div > div > div.skill-title > div > span {
     width: pxtovw(300, 1920) !important;
@@ -861,9 +869,9 @@ body > div.box-info2 > div > div > div.skill-title > div > span {
 body > div.box-info2 > div > div > div.skill-title > div > span > span.selection > span {
     background:transparent !important;  
     border: unset !important; 
-
     display:flex !important;
 }
+
 .select2-container .select2-selection--multiple .select2-selection__rendered {
     display:flex !important;
     li:nth-child(1n) {

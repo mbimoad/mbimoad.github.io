@@ -39,14 +39,14 @@ const data = [
       "github": "#",
       "image": "./port/django.webp",
       "description": "Showcasing Django skills with a clean design and interactive features for a dynamic user experience.",
-      "tags": ["Django", "SASS"]
+      "tags": ["DJANGO", "SASS"]
     },
     {
       "title": "Portfolio Website",
       "github": "#",
       "image": "./port/vuejs.JPG",
       "description": "Showcasing Vue JS skills with a clean design and interactive features for a dynamic user experience.",
-      "tags": ["Vue JS"]
+      "tags": ["VUE JS"]
     },
     {
       "title": "Portfolio Project",

@@ -804,9 +804,6 @@ body > div.box-info1 > div.about-me.skill.testi > div.testi-items.owl-carousel.o
   display: -ms-flexbox;
   display: flex;
   gap: 1.5625vw;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -814,7 +811,26 @@ body > div.box-info1 > div.about-me.skill.testi > div.testi-items.owl-carousel.o
       flex-wrap: wrap;
 }
 
+.box-info2 .cards .card.active:hover,
+.box-info2 .cards .card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.box-info2 .cards .card.active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+  -webkit-transition: all 200ms ease 0s;
+  transition: all 200ms ease 0s;
+}
+
 .box-info2 .cards .card {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 0;
+  -webkit-transition: all 200ms ease 0s;
+  transition: all 200ms ease 0s;
   -webkit-box-shadow: 0 0 0.78125vw #6b0aeb;
           box-shadow: 0 0 0.78125vw #6b0aeb;
   border-radius: 0.78125vw;
@@ -994,6 +1010,8 @@ a {
 }
 
 .dashboard .hello-box {
+  -webkit-transition: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
   width: 26.04167vw;
   position: absolute;
   left: 0;
@@ -1188,6 +1206,8 @@ body.light .dashboard .components .stars, body.light .dashboard .components .moo
 }
 
 .dashboard .components .pohon2 {
+  -webkit-transition: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
   width: 30%;
   position: absolute;
   z-index: 10;

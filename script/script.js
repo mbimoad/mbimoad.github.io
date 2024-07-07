@@ -1,3 +1,48 @@
+let detik = 0;
+const submit = document.querySelector('.submit'); 
+submit.addEventListener('click', function() {
+    const span = document.querySelectorAll('.select2-selection__choice__display'); 
+    let db = [];
+    if(span.length != 0)
+    {
+        span.forEach(item => db.push(item.innerText.toUpperCase())); 
+        console.log(db)
+        if(db.includes('ALL')) {
+          let elements = data.map(item => cards(item)).join('')
+          document.querySelector('.cards').innerHTML = elements;
+          setTimeout(() => {
+            document.querySelectorAll('.cards .card').forEach(item => item.classList.add('active'))
+          }, detik)
+        } else {
+          const filteredProjects = data.filter(project => {
+            return db.every(tag => project.tags.includes(tag));
+          });
+
+          let elements = filteredProjects.map(item => cards(item)).join('')
+          document.querySelector('.cards').innerHTML = elements;
+          setTimeout(() => {
+            document.querySelectorAll('.cards .card').forEach(item => item.classList.add('active'))
+          }, detik)
+          
+        }
+
+        // how to find data in json like
+        
+
+
+        
+
+    } else {
+      let elements = data.map(item => cards(item)).join('')
+      document.querySelector('.cards').innerHTML = elements;
+      setTimeout(() => {
+        document.querySelectorAll('.cards .card').forEach(item => item.classList.add('active'))
+      }, detik)
+    }
+})
+
+
+
 function limitStringTo20Words(inputString) {
   // Split the string into an array of words
   let words = inputString.split(/\s+/);
@@ -78,6 +123,7 @@ const cards = item => {
 
 let elements = data.map(item => cards(item)).join('')
 document.querySelector('.cards').innerHTML = elements;
+document.querySelectorAll('.cards .card').forEach(item => item.classList.add('active'))
 
 
 elements = jobs.map(item => jobsEl(item)).join('')
