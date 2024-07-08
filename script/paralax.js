@@ -452,7 +452,24 @@ menu.forEach(item => item.addEventListener('click', function(e) {
 
 
 } else {
-    AOS.init();
+    const card = document.querySelectorAll('.cards .card');
+    const jobs = document.querySelectorAll('.jobs .box');
+    card.forEach((item,index) => {
+        item.classList.remove('active');
+        item.dataset.aos = "fade-up";
+        item.dataset.aosDelay = index * 50; 
+        item.dataset.duration = 2000; 
+    })
+    jobs.forEach((item,index) => {
+        item.dataset.aos = "fade-right";
+        item.dataset.aosDelay = index * 50; 
+        item.dataset.duration = 2000; 
+    })
+    console.log(jobs);
+
+    AOS.init({ once: true,offset: 30,});
+
+   
 
     const hellobox = document.querySelector('.hello-box'); 
     const boxinfo1 = document.querySelector('.box-info1');
@@ -476,8 +493,8 @@ menu.forEach(item => item.addEventListener('click', function(e) {
         if (currentScrollPosition > previousScrollPosition) {
             
             
-            if(angka3 <= 150) angka3 += 2;
-            else angka3 = 150; 
+            if(angka3 <= 100) angka3 += 1;
+            else angka3 = 100; 
 
 
             if(angka >= -40) {
@@ -523,7 +540,14 @@ menu.forEach(item => item.addEventListener('click', function(e) {
         }
     });
 
-    
+    const explore = document.querySelector('.explore');
+    explore.addEventListener('click', function() {
+        let idmenu = document.getElementById('about')
+            idmenu.scrollIntoView({
+                behavior: 'smooth', 
+                block: 'start',
+            })
+    })
 
     const menu = document.querySelectorAll('ul.menu li'); 
     menu.forEach(item => item.addEventListener('click', function(e) {

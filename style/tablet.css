@@ -286,6 +286,9 @@
     position: relative;
     z-index: 99999;
   }
+  .box-info2 {
+    z-index: 9;
+  }
   .box-info2 .about-me.skill .skill-title {
     padding: unset !important;
   }
@@ -437,7 +440,10 @@
   .box-info2 .section1 {
     gap: 5.21512vw;
     padding: 0 3.25945vw;
-    margin-top: 15.64537vw;
+    margin-top: 6.5189vw;
+  }
+  .box-info2 .about-me.skill {
+    padding: 6.5189vw 0;
   }
   .box-info2 .about-me.skill .skill-items {
     width: 100%;
@@ -445,7 +451,7 @@
     display: grid;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-    gap: 19.55671vw;
+    gap: 6.5189vw;
     justify-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -471,7 +477,7 @@
     height: auto;
   }
   .box-info2 .about-me.skill .skill-title {
-    margin-bottom: 2.60756vw;
+    margin-bottom: 5.21512vw;
     text-align: center;
     padding: 5.21512vw 10.43025vw;
   }

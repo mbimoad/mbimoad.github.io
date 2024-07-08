@@ -296,6 +296,10 @@ header {
     // padding-bottom: pxtovw(200, 767);
 }
 
+.box-info2 {
+    z-index: 9;
+}
+
 // .box-info2 {
 //     transform: translate(100%, 0);
 //     position:absolute; 
@@ -445,14 +449,15 @@ header {
     .section1 {
         gap:pxtovw(40, 767);
         padding: 0 pxtovw(25, 767);  
-        margin-top: pxtovw(120, 767);
+        margin-top: pxtovw(50, 767);
     }
     .about-me.skill {
+        padding: pxtovw(50, 767) 0;
         .skill-items {
             width: 100%;
             display:grid; 
             grid-template-columns: repeat(2, 1fr);
-            gap: pxtovw(150, 767);
+            gap: pxtovw(50, 767);
             justify-items:center;
             justify-content: center;
             align-items:center;
@@ -473,7 +478,7 @@ header {
             
         }
         .skill-title {
-            margin-bottom: pxtovw(20, 767);
+            margin-bottom: pxtovw(40, 767);
             text-align:center; 
             padding: pxtovw(40, 767) pxtovw(80, 767);
             h1 {

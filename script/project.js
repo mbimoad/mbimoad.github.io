@@ -2,21 +2,21 @@ const data = [
     {
       "title": "Delta Systech Indonesia",
       "github": "#",
-      "image": "./port/port1.JPG",
+      "image": "./port/port1.webp",
       "description": "A Laravel-powered web app featuring a dynamic landing page, robust post and any feature capabilities, also innovative design from scratch. build by SASS",
       "tags": ["LARAVEL", "SASS"]
     },
     {
       "title": "Ingenios",
       "github": "#",
-      "image": "./port/ingenios.JPG",
+      "image": "./port/ingenios.webp",
       "description": "Ingenios leverages Django and SASS to deliver a polished web experience, blending robust functionality with elegant design.",
       "tags": ["DJANGO", "SASS"]
     },
     {
       "title": "Machine Monitoring",
       "github": "#",
-      "image": "./port/monitoring.JPG",
+      "image": "./port/monitoring.webp",
       "description": "Integrating Codeigniter and SASS with cutting-edge 3D design for a visually immersive experience in machine monitoring and management.",
       "tags": ["CODEIGNITER", "SASS"]
     },
@@ -30,7 +30,7 @@ const data = [
     {
       "title": "Portfolio Website",
       "github": "#",
-      "image": "./port/node.JPG",
+      "image": "./port/node.webp",
       "description": "Showcasing Node.js skills with a clean design and interactive features for a dynamic user experience.",
       "tags": ["NODE JS"]
     },
@@ -44,14 +44,14 @@ const data = [
     {
       "title": "Portfolio Website",
       "github": "#",
-      "image": "./port/vuejs.JPG",
+      "image": "./port/vuejs.webp",
       "description": "Showcasing Vue JS skills with a clean design and interactive features for a dynamic user experience.",
       "tags": ["VUE JS"]
     },
     {
       "title": "Portfolio Project",
       "github": "#",
-      "image": "./port/mvc.JPG",
+      "image": "./port/mvc.webp",
       "description": "Blending Php Mvc and SASS with advanced 3D design techniques to showcase a dynamic and visually compelling portfolio of projects and achievements.",
       "tags": ["PHP MVC", "SASS"]
     },
