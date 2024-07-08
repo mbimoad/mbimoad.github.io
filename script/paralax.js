@@ -476,8 +476,8 @@ menu.forEach(item => item.addEventListener('click', function(e) {
         if (currentScrollPosition > previousScrollPosition) {
             
             
-            if(angka3 <= 80) angka3 += 2;
-            else angka3 = 80; 
+            if(angka3 <= 150) angka3 += 2;
+            else angka3 = 150; 
 
 
             if(angka >= -40) {
@@ -505,7 +505,7 @@ menu.forEach(item => item.addEventListener('click', function(e) {
             if(angka <= 0)        angka += .5; 
             else angka = 0;
 
-            if(angka3 >= 30) angka3-=2; 
+            if(angka3 >= 30) angka3-=10; 
             else angka3 = 30; 
 
 
