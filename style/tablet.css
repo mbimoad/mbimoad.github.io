@@ -283,12 +283,16 @@
 , .box-info2 {
     position: unset;
   }
+  .box-info2 .about-me.skill .skill-title {
+    padding: unset !important;
+  }
   .box-info2 .about-me.skill.education {
     padding: 3.91134vw;
     padding-bottom: 6.5189vw;
   }
   .box-info2 .about-me.skill.education .skill-title {
     margin-bottom: 5.21512vw;
+    padding: unset;
   }
   .box-info2 .about-me.skill.education .skill-items.education {
     display: -webkit-box;
@@ -304,7 +308,7 @@
   .box-info2 .about-me.skill.education .skill-items.education .boxs {
     padding-left: 3.91134vw;
     border-left: 1.30378vw solid #0100307a;
-    width: 85%;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

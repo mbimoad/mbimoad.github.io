@@ -313,12 +313,18 @@ header {
 
 .box-info2 {
 
-
+    .about-me.skill  {
+        .skill-title {
+            padding: unset !important; 
+        }
+    }
     .about-me.skill.education {
         padding: pxtovw(30, 767);
+        // padding: unset; 
         padding-bottom: pxtovw(50, 767);
         .skill-title {
             margin-bottom: pxtovw(40, 767);
+            padding: unset; 
         }
         .skill-items.education {
             display:flex; 
@@ -327,7 +333,7 @@ header {
             .boxs {
                 padding-left: pxtovw(30, 767);
                 border-left: pxtovw(10, 767) solid $dark_input;
-                width: 85%;
+                width: 100%;
                 // border: 1px solid red;
                 display:flex; 
                 flex-direction:column;

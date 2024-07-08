@@ -454,7 +454,7 @@ menu.forEach(item => item.addEventListener('click', function(e) {
 } else {
     AOS.init();
 
-    
+
     const boxinfo1 = document.querySelector('.box-info1');
     const boxinfo2 = document.querySelector('.box-info2');
     const mountain = document.querySelector('.mountain');
@@ -478,14 +478,14 @@ menu.forEach(item => item.addEventListener('click', function(e) {
             // console.log("Scrolling down");
 
 
-            if(angka >= -13) {
+            if(angka >= -40) {
                 angka -= .2;
-            } else angka = -13;
+            } else angka = -40;
 
-            if(angka2 >= -48) {
+            if(angka2 >= -75) {
                 console.log("kesini")
                 angka2 -= .5;  
-            } else angka2 = -48
+            } else angka2 = -75
            
             console.log(angka + " Angka");
             console.log(angka2 + " Angka2");
