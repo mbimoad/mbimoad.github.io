@@ -499,7 +499,7 @@ menu.forEach(item => item.addEventListener('click', function(e) {
             if(angka2 <= -15) {
                 angka2 += .5; 
             } else angka2 = -15; 
-            if(angka <= 0)        angka += .2; 
+            if(angka <= 0)        angka += .5; 
             else angka = 0;
 
 
