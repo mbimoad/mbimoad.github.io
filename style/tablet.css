@@ -281,7 +281,8 @@
   }
   .box-info1
 , .box-info2 {
-    position: unset;
+    position: relative;
+    z-index: 99999;
   }
   .box-info2 .about-me.skill .skill-title {
     padding: unset !important;

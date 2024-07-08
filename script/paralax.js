@@ -454,7 +454,7 @@ menu.forEach(item => item.addEventListener('click', function(e) {
 } else {
     AOS.init();
 
-
+    const hellobox = document.querySelector('.hello-box'); 
     const boxinfo1 = document.querySelector('.box-info1');
     const boxinfo2 = document.querySelector('.box-info2');
     const mountain = document.querySelector('.mountain');
@@ -462,6 +462,7 @@ menu.forEach(item => item.addEventListener('click', function(e) {
     
     let angka = 0; 
     let angka2 = -15; 
+    let angka3 = 30
 
 
  // Initialize a variable to store the previous scroll position
@@ -473,9 +474,10 @@ menu.forEach(item => item.addEventListener('click', function(e) {
 
         // Determine scroll direction
         if (currentScrollPosition > previousScrollPosition) {
-            angka -= .2;
-            angka2 -= .5;  
-            // console.log("Scrolling down");
+            
+            
+            if(angka3 <= 80) angka3 += 2;
+            else angka3 = 80; 
 
 
             if(angka >= -40) {
@@ -493,6 +495,7 @@ menu.forEach(item => item.addEventListener('click', function(e) {
 
             mountain.style.bottom = `${angka}%`;
             pohon1.style.bottom = `${angka2}%`;
+            hellobox.style.top = `${angka3}%`;
         } else {
       
            
@@ -502,9 +505,13 @@ menu.forEach(item => item.addEventListener('click', function(e) {
             if(angka <= 0)        angka += .5; 
             else angka = 0;
 
+            if(angka3 >= 30) angka3-=2; 
+            else angka3 = 30; 
+
 
             mountain.style.bottom = `${angka}%`;
             pohon1.style.bottom = `${angka2}%`;
+            hellobox.style.top = `${angka3}%`;
         }
 
         // Update previous scroll position
@@ -512,10 +519,7 @@ menu.forEach(item => item.addEventListener('click', function(e) {
 
         // Check if reached the bottom of the page
         if (window.innerHeight + currentScrollPosition + 5 >= document.documentElement.offsetHeight) {
-            console.log("Reached the bottom of the page!");
-            // Perform actions when reaching the bottom
-            // Example:
-            // boxinfo2.classList.add('active');
+  
         }
     });
 

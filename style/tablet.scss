@@ -289,7 +289,8 @@ header {
 .box-info1
 ,.box-info2 
 {
-    position:unset;
+    position:relative;
+    z-index: 99999;
     // padding-bottom: pxtovw(200, 767);
 }
 
