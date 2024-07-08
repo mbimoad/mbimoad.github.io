@@ -452,6 +452,9 @@ menu.forEach(item => item.addEventListener('click', function(e) {
 
 
 } else {
+    AOS.init();
+
+    
     const boxinfo1 = document.querySelector('.box-info1');
     const boxinfo2 = document.querySelector('.box-info2');
     const mountain = document.querySelector('.mountain');
