@@ -281,10 +281,35 @@ header {
     display:unset;
 }
 
-.box-info1,
+.box-info1, 
 .box-info2 {
-    position:unset;
+    transition: all 500ms ease 0s; 
 }
+
+.box-info1
+,.box-info2 
+{
+    position:unset;
+    // padding-bottom: pxtovw(200, 767);
+}
+
+// .box-info2 {
+//     transform: translate(100%, 0);
+//     position:absolute; 
+//     z-index: -1;
+//     opacity: 0;
+//     visibility: hidden;
+//     pointer-events:none;
+//     display:none;
+// }
+
+// .box-info1.active {
+//     opacity: 0; 
+//     pointer-events:none; 
+//     visibility:hidden; 
+// }
+
+
 
 .box-info2 {
 

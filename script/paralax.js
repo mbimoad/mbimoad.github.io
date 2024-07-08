@@ -452,11 +452,71 @@ menu.forEach(item => item.addEventListener('click', function(e) {
 
 
 } else {
+    const boxinfo1 = document.querySelector('.box-info1');
+    const boxinfo2 = document.querySelector('.box-info2');
+    const mountain = document.querySelector('.mountain');
+    const pohon1 = document.querySelector('.pohon1');
+    
+    let angka = 0; 
+    let angka2 = -15; 
 
+
+ // Initialize a variable to store the previous scroll position
+    let previousScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
     document.addEventListener('scroll', function(e) {
-        console.log("kesini")
-    })
+        // Current scroll position
+        let currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+        // Determine scroll direction
+        if (currentScrollPosition > previousScrollPosition) {
+            angka -= .2;
+            angka2 -= .5;  
+            // console.log("Scrolling down");
+
+
+            if(angka >= -13) {
+                angka -= .2;
+            } else angka = -13;
+
+            if(angka2 >= -48) {
+                console.log("kesini")
+                angka2 -= .5;  
+            } else angka2 = -48
+           
+            console.log(angka + " Angka");
+            console.log(angka2 + " Angka2");
+            
+
+            mountain.style.bottom = `${angka}%`;
+            pohon1.style.bottom = `${angka2}%`;
+        } else {
+      
+           
+            if(angka2 <= -15) {
+                angka2 += .5; 
+            } else angka2 = -15; 
+            if(angka <= 0)        angka += .2; 
+            else angka = 0;
+
+
+            mountain.style.bottom = `${angka}%`;
+            pohon1.style.bottom = `${angka2}%`;
+        }
+
+        // Update previous scroll position
+        previousScrollPosition = currentScrollPosition;
+
+        // Check if reached the bottom of the page
+        if (window.innerHeight + currentScrollPosition + 5 >= document.documentElement.offsetHeight) {
+            console.log("Reached the bottom of the page!");
+            // Perform actions when reaching the bottom
+            // Example:
+            // boxinfo2.classList.add('active');
+        }
+    });
+
+    
 
     const menu = document.querySelectorAll('ul.menu li'); 
     menu.forEach(item => item.addEventListener('click', function(e) {
@@ -494,4 +554,10 @@ menu.forEach(item => item.addEventListener('click', function(e) {
             } 
     }));
 
+}
+
+
+if(window.innerWidth <= 767)
+{
+    
 }

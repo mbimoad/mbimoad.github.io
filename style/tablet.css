@@ -276,6 +276,11 @@
   }
   .box-info1,
   .box-info2 {
+    -webkit-transition: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+  }
+  .box-info1
+, .box-info2 {
     position: unset;
   }
   .box-info2 .about-me.skill.education {
