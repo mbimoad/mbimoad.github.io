@@ -1179,6 +1179,10 @@ body.light .box-info1 .about-me .left .buttons .button {
   background: #197e78;
 }
 
+body.light .box-info1 .about-me.skill .testi-items .card .header img {
+  border: 0.15625vw solid #81ffca;
+}
+
 .dashboard {
   overflow: hidden;
   width: 100%;

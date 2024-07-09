@@ -868,6 +868,21 @@ body.light {
         }
     }
 
+
+    .box-info1 {
+        .about-me.skill {
+            .testi-items {
+                .card {
+                    .header {
+                        img {
+                            border: pxtovw(3, 1920) solid #81ffca;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 .dashboard {

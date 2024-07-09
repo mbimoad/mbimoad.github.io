@@ -181,7 +181,7 @@ const jobs = [
   {
     "title": "Full Stack Web Developer",
     "date": "March 2024 - July 2024",
-    "location": "PT Delta Systech, Indonesia",
+    "location": "PT Delta Systech Indonesia, Indonesia",
     "type": "Remote Work",
     "jobdesc": [
         "Designed company websites using Figma.",
@@ -208,7 +208,7 @@ const jobs = [
   {
     "title": "Front End Web Developer",
     "date": "January 2023 - December 2024",
-    "location": "Ingenios, Polands",
+    "location": "Ingenios, Poland",
     "type": "Remote Work",
       "jobdesc": [
           "Developed corporate websites using CSS preprocessors and Django Framework.",
