@@ -289,6 +289,14 @@
   .box-info2 {
     z-index: 9;
   }
+  .box-info2 .cards .card .images a.github {
+    width: 3.25945vw;
+    height: 3.25945vw;
+  }
+  .box-info2 .cards .card .images a.github svg {
+    width: 1.95567vw;
+    height: auto;
+  }
   .box-info2 .about-me.skill .skill-title {
     padding: unset !important;
   }
@@ -440,7 +448,7 @@
   .box-info2 .section1 {
     gap: 5.21512vw;
     padding: 0 3.25945vw;
-    margin-top: 6.5189vw;
+    margin-top: 1.95567vw;
   }
   .box-info2 .about-me.skill {
     padding: 6.5189vw 0;

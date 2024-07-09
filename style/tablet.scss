@@ -319,7 +319,20 @@ header {
 
 
 .box-info2 {
-
+    .cards {
+        .card {
+            .images {
+                a.github {
+                    width: pxtovw(25, 767);
+                    height: pxtovw(25, 767);
+                    svg {
+                        width: pxtovw(15, 767); 
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
     .about-me.skill  {
         .skill-title {
             padding: unset !important; 
@@ -449,7 +462,7 @@ header {
     .section1 {
         gap:pxtovw(40, 767);
         padding: 0 pxtovw(25, 767);  
-        margin-top: pxtovw(50, 767);
+        margin-top: pxtovw(15, 767);
     }
     .about-me.skill {
         padding: pxtovw(50, 767) 0;

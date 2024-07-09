@@ -752,13 +752,22 @@ body.dark {
     }
 }
 body.light {
+
+    .info {
+        .buttons {
+            a:nth-child(1) {background: #132E43;}
+            a:nth-child(2) {background: #132E43;}
+            a:nth-child(3) {background: #132E43;}
+            a:nth-child(4) {background: #132E43;}
+        }
+    }
     header {
         background: $lght_header; 
     }
     .dashboard {
         .hello-box { 
             button {
-                background: $lght_purple2; 
+                background: #132E43; 
             }
         }
         background-image: $lght_background;
@@ -768,6 +777,88 @@ body.light {
             }
         }
     }
+    .box-info2 {
+        background: #1b8991;
+        .about-me.skill.education {
+            .skill-items.education {
+                .boxs {
+                    .box:nth-child(even) {
+                        background: #00505a;
+                    }
+
+                    .box {
+                        .semi-header {
+                            span {
+                                color: #00ffd8;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .about-me.skill {
+            background: #0c656b;
+        } .searchs {
+            button.submit {
+                background: #3fa15e;
+            }
+        } .cards {
+            .card {
+                background: #022b3d;
+                border-color: #0dffb0;
+                border:pxtovw(5, 1920) solid #0dffb0;
+                .detail {
+                    background: #022b3d;
+                } .images {
+                    a.github {
+                        background: #3fa15e;
+                    }
+                }
+            }
+        }
+    }
+    .box-info1 {
+        background: #1b8991;
+        .supportbox {
+            background: #1b8991;
+        }
+        .about-me.skill.testi {
+            background: #144c49;
+        }
+
+        .about-me.skill {
+            .testi-items {
+                .card {
+                    background: #197e78;
+                }
+            }
+        }
+
+        .about-me {
+
+            background: #144c49;
+            .right {
+
+                .frame {
+                    .rectangle {
+                        border: pxtovw(25, 1920) solid #81ffca; 
+                        box-shadow: 0 0 pxtovw(50, 1920) #81ffca;
+                    }
+                    img {
+                        filter: unset;
+                    }
+                }
+            }
+            .left {
+                .buttons {
+                    .button {
+                        background:#197e78;
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 .dashboard {

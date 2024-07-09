@@ -1070,6 +1070,22 @@ body.dark .dashboard .components .clouds {
   display: none;
 }
 
+body.light .info .buttons a:nth-child(1) {
+  background: #132E43;
+}
+
+body.light .info .buttons a:nth-child(2) {
+  background: #132E43;
+}
+
+body.light .info .buttons a:nth-child(3) {
+  background: #132E43;
+}
+
+body.light .info .buttons a:nth-child(4) {
+  background: #132E43;
+}
+
 body.light header {
   background: #1459814a;
 }
@@ -1080,11 +1096,80 @@ body.light .dashboard {
 }
 
 body.light .dashboard .hello-box button {
-  background: #F69E56;
+  background: #132E43;
 }
 
 body.light .dashboard .components .stars, body.light .dashboard .components .moon {
   display: none;
+}
+
+body.light .box-info2 {
+  background: #1b8991;
+}
+
+body.light .box-info2 .about-me.skill.education .skill-items.education .boxs .box:nth-child(even) {
+  background: #00505a;
+}
+
+body.light .box-info2 .about-me.skill.education .skill-items.education .boxs .box .semi-header span {
+  color: #00ffd8;
+}
+
+body.light .box-info2 .about-me.skill {
+  background: #0c656b;
+}
+
+body.light .box-info2 .searchs button.submit {
+  background: #3fa15e;
+}
+
+body.light .box-info2 .cards .card {
+  background: #022b3d;
+  border-color: #0dffb0;
+  border: 0.26042vw solid #0dffb0;
+}
+
+body.light .box-info2 .cards .card .detail {
+  background: #022b3d;
+}
+
+body.light .box-info2 .cards .card .images a.github {
+  background: #3fa15e;
+}
+
+body.light .box-info1 {
+  background: #1b8991;
+}
+
+body.light .box-info1 .supportbox {
+  background: #1b8991;
+}
+
+body.light .box-info1 .about-me.skill.testi {
+  background: #144c49;
+}
+
+body.light .box-info1 .about-me.skill .testi-items .card {
+  background: #197e78;
+}
+
+body.light .box-info1 .about-me {
+  background: #144c49;
+}
+
+body.light .box-info1 .about-me .right .frame .rectangle {
+  border: 1.30208vw solid #81ffca;
+  -webkit-box-shadow: 0 0 2.60417vw #81ffca;
+          box-shadow: 0 0 2.60417vw #81ffca;
+}
+
+body.light .box-info1 .about-me .right .frame img {
+  -webkit-filter: unset;
+          filter: unset;
+}
+
+body.light .box-info1 .about-me .left .buttons .button {
+  background: #197e78;
 }
 
 .dashboard {
