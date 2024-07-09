@@ -108,6 +108,7 @@ header {
                 gap: pxtovw(15, 767);
                 .button {
                     font-size: pxtovw(20, 767);
+                    padding: pxtovw(7, 767) pxtovw(12, 767);
                     svg {
                         width: pxtovw(19, 767);
                         height: pxtovw(19, 767);
@@ -315,9 +316,13 @@ header {
 //     pointer-events:none; 
 //     visibility:hidden; 
 // }
+body.light {
+    background: #1b8991; 
+}
 
-
-
+.box-info2.active {
+    background: #1b8991; 
+}
 .box-info2 {
     .cards {
         .card {
@@ -441,7 +446,17 @@ header {
         }
     }
 
-
+    .box-info1 {
+        .about-me {
+            .left {
+                .buttons {
+                    .button {
+                        padding: pxtovw(15, 767) pxtovw(15, 767);
+                    }
+                }
+            }
+        }
+    }
     .searchs {
         display: flex;
 
@@ -455,6 +470,7 @@ header {
             border: unset; 
             outline: unset; 
             font-size: pxtovw(18, 767);
+            min-height: 32px; 
         }
     }
 
@@ -542,7 +558,7 @@ header {
             .footer {
                 .left,
                     .right {
-          
+                        justify-content: flex-end;
                         gap: pxtovw(10, 767); 
                     }
                     margin-top: pxtovw(10, 767);

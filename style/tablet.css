@@ -101,6 +101,7 @@
   }
   .box-info1 .about-me .left .buttons .button {
     font-size: 2.60756vw;
+    padding: 0.91265vw 1.56454vw;
   }
   .box-info1 .about-me .left .buttons .button svg {
     width: 2.47718vw;
@@ -289,6 +290,12 @@
   .box-info2 {
     z-index: 9;
   }
+  body.light {
+    background: #1b8991;
+  }
+  .box-info2.active {
+    background: #1b8991;
+  }
   .box-info2 .cards .card .images a.github {
     width: 3.25945vw;
     height: 3.25945vw;
@@ -425,6 +432,9 @@
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box .footer span:last-child {
     color: #00ccff;
   }
+  .box-info2 .box-info1 .about-me .left .buttons .button {
+    padding: 1.95567vw 1.95567vw;
+  }
   .box-info2 .searchs {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -444,6 +454,7 @@
     border: unset;
     outline: unset;
     font-size: 2.34681vw;
+    min-height: 32px;
   }
   .box-info2 .section1 {
     gap: 5.21512vw;
@@ -541,6 +552,9 @@
   }
   .box-info2 .about-me.skill .card .footer .left,
   .box-info2 .about-me.skill .card .footer .right {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     gap: 1.30378vw;
   }
   .box-info2 .about-me.skill .card .footer span {
