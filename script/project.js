@@ -193,7 +193,7 @@ const jobs = [
   },
   {
     "title": "Full Stack Web Developer",
-    "date": "March 2024 - July 2024",
+    "date": "February 2024 - March 2024",
     "location": "Plair Studio, United States",
     "type": "Remote Work",
     "jobdesc": [
