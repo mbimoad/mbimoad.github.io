@@ -61,6 +61,9 @@ header {
                         gap: pxtovw(10, 767); 
                         margin:unset;
                     }
+                    .right {
+                        justify-content:flex-end;
+                    }
                     margin-top: pxtovw(30, 767);
                     span {
                         font-size: pxtovw(15, 767);

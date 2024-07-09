@@ -56,6 +56,11 @@
     gap: 1.30378vw;
     margin: unset;
   }
+  .box-info1 .about-me.skill .testi-items .card .footer .right {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
   .box-info1 .about-me.skill .testi-items .card .footer span {
     font-size: 1.95567vw;
     line-height: 1.5;
