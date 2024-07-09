@@ -815,6 +815,7 @@ body.light {
                 background: #022b3d;
                 border-color: #0dffb0;
                 border:pxtovw(5, 1920) solid #0dffb0;
+                box-shadow: 0 0 pxtovw(15, 1920) #0dffb0;
                 .detail {
                     background: #022b3d;
                 } .images {

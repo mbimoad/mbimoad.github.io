@@ -1132,6 +1132,8 @@ body.light .box-info2 .cards .card {
   background: #022b3d;
   border-color: #0dffb0;
   border: 0.26042vw solid #0dffb0;
+  -webkit-box-shadow: 0 0 0.78125vw #0dffb0;
+          box-shadow: 0 0 0.78125vw #0dffb0;
 }
 
 body.light .box-info2 .cards .card .detail {
