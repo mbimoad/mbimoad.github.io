@@ -135,7 +135,7 @@ console.log(elements);
 
 
 const body = document.querySelector('body'); 
-const audio = document.querySelectorAll('.audio');
+// const audio = document.querySelectorAll('.audio');
 const btnMode = document.querySelector('.optionbtn'); 
 const imgComp = document.querySelectorAll('.components img'); 
 let dark = false;
@@ -155,8 +155,8 @@ btnMode.addEventListener('click', (e) => {
             item.src = newSrc; 
         })
         body.setAttribute('class', 'light');
-        audio[1].play(); 
-        audio[0].pause(); 
+        // audio[1].play(); 
+        // audio[0].pause(); 
     } else {
         // Dark
         btnMode.innerHTML = ` <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -169,8 +169,8 @@ btnMode.addEventListener('click', (e) => {
             item.src = newSrc; 
         })
         body.setAttribute('class', 'dark');
-        audio[1].pause(); 
-        audio[0].play(); 
+        // audio[1].pause(); 
+        // audio[0].play(); 
     }
 })
 
