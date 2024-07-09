@@ -41,7 +41,7 @@
     top: -5.86701vw;
     width: 9.12647vw;
     height: 9.12647vw;
-    border: 0.39113vw solid #6b0aeb;
+    border: 0.39113vw solid #81ffca;
   }
   .box-info1 .about-me.skill .testi-items .card .header span {
     font-size: 2.86832vw;
@@ -104,12 +104,16 @@
     padding: 0.91265vw 1.56454vw;
   }
   .box-info1 .about-me .left .buttons .button svg {
-    width: 2.47718vw;
-    height: 2.47718vw;
+    width: 3.52021vw;
+    height: 3.52021vw;
+  }
+  .box-info1 .about-me .left .buttons a svg {
+    width: 3.52021vw;
+    height: 3.52021vw;
   }
   .box-info1 .about-me .left .buttons .buttonicon svg {
-    width: 2.47718vw;
-    height: 2.47718vw;
+    width: 3.52021vw;
+    height: 3.52021vw;
   }
   @-webkit-keyframes stars_animate {
     from {
@@ -450,7 +454,7 @@
   .box-info2 .searchs button.submit {
     background: #6b0aeb;
     color: white;
-    padding: 0.65189vw;
+    padding: 0.65189vw 1.30378vw;
     border: unset;
     outline: unset;
     font-size: 2.34681vw;

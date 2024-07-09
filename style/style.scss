@@ -194,7 +194,15 @@ body > div.box-info1 > div.about-me.skill.testi > div.testi-items.owl-carousel.o
                         width: pxtovw(19, 1920);
                         height: pxtovw(19, 1920);
                     }
-                } .buttons {
+                } 
+                a {
+                    svg {
+                        width: pxtovw(19, 1920);
+                        height: pxtovw(19, 1920);
+                    }
+                }
+                
+                .buttons {
                     .buttonicon {
                        
                         svg {

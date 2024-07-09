@@ -302,6 +302,11 @@ body > div.box-info1 > div.about-me.skill.testi > div.testi-items.owl-carousel.o
   height: 0.98958vw;
 }
 
+.box-info1 .about-me .left .buttons a svg {
+  width: 0.98958vw;
+  height: 0.98958vw;
+}
+
 .box-info1 .about-me .left .buttons .buttons .buttonicon svg {
   width: 1.04167vw;
   height: 1.04167vw;

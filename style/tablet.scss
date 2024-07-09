@@ -48,7 +48,7 @@ header {
                         top: pxtovw(-45, 767);
                         width: pxtovw(70, 767);
                         height:pxtovw(70, 767);
-                        border: pxtovw(3, 767) solid $dark_purple4;
+                        border: pxtovw(3, 767) solid #81ffca;
                         
                     }
                     span {
@@ -110,15 +110,21 @@ header {
                     font-size: pxtovw(20, 767);
                     padding: pxtovw(7, 767) pxtovw(12, 767);
                     svg {
-                        width: pxtovw(19, 767);
-                        height: pxtovw(19, 767);
+                        width: pxtovw(27, 767);
+                        height: pxtovw(27, 767);
                     }
+                } 
+                a {
+                    svg {
+                        width: pxtovw(27, 767);
+                        height: pxtovw(27, 767);
+                    } 
                 }
                 .buttonicon {
               
                     svg {
-                        width: pxtovw(19, 767);
-                        height:pxtovw(19, 767);;
+                        width: pxtovw(27, 767);
+                        height:pxtovw(27, 767);;
                     }
                 }
             }
@@ -466,7 +472,7 @@ body.light {
         button.submit {
             background: $dark_purple4; 
             color:white; 
-            padding: pxtovw(5, 767); 
+            padding: pxtovw(5, 767) pxtovw(10, 767); 
             border: unset; 
             outline: unset; 
             font-size: pxtovw(18, 767);
