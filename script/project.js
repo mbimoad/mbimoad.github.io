@@ -207,7 +207,7 @@ const jobs = [
   },
   {
     "title": "Front End Web Developer",
-    "date": "January 2023 - December 2024",
+    "date": "January 2023 - December 2023",
     "location": "Ingenios, Poland",
     "type": "Remote Work",
       "jobdesc": [
