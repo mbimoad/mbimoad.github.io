@@ -21,6 +21,13 @@ const data = [
       "tags": ["CODEIGNITER", "SASS"]
     },
     {
+      "title": "Plair Studio",
+      "github": "#",
+      "image": "./port/plair.webp",
+      "description": "Elevating portfolios with FLASK and SASS for sleek, dynamic web design and functionality.",
+      "tags": ["FLASK", "SASS"]
+    },
+    {
       "title": "Health Monitoring",
       "github": "#",
       "image": "./port/6426fff4651c4.webp",
@@ -66,13 +73,6 @@ const data = [
       "title": "Teamwork Web Profile",
       "github": "#",
       "image": "./port/64267cfeb1e58.webp",
-      "description": "Our business thrives on teamwork, believing it drives exceptional results by fostering collaboration and leveraging collective strengths.",
-      "tags": ["HTML", "CSS", "JS"]
-    },
-    {
-      "title": "Teamwork Web Profile",
-      "github": "#",
-      "image": "./port/teamwork.webp",
       "description": "Our business thrives on teamwork, believing it drives exceptional results by fostering collaboration and leveraging collective strengths.",
       "tags": ["HTML", "CSS", "JS"]
     },
