@@ -180,7 +180,7 @@ const jobs = [
   },
   {
     "title": "Full Stack Web Developer",
-    "date": "March 2024 - July 2024",
+    "date": "March 2024 - October 2024",
     "location": "PT Delta Systech Indonesia, Indonesia",
     "type": "Remote Work",
     "jobdesc": [
