@@ -56,6 +56,7 @@ header {
                         transform: translate(pxtovw(90, 767), 0);
                     }
                 } .footer {
+                    font-size: pxtovw(15, 767);
                     .left,
                     .right {
                         gap: pxtovw(10, 767); 

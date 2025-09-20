@@ -106,6 +106,7 @@ body > div.box-info1 > div.about-me.skill.testi > div.testi-items.owl-carousel.o
   font-size: 1.1458333333vw;
 }
 .box-info1 .about-me.skill .testi-items .card .footer {
+  font-size: 0.78125vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -301,6 +302,7 @@ body > div.box-info1 > div.about-me.skill.testi > div.testi-items.owl-carousel.o
   font-size: 1.1458333333vw;
 }
 .box-info2 .about-me.skill .testi-items .card .footer {
+  font-size: 0.78125vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -609,6 +611,7 @@ body > div.box-info1 > div.about-me.skill.testi > div.testi-items.owl-carousel.o
   font-size: 0.8854166667vw;
 }
 .box-info2 .cards .card .footer {
+  font-size: 0.9375vw;
   width: 100%;
   display: flex;
   justify-content: center;
