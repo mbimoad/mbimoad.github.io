@@ -24,6 +24,16 @@
     }
 }
 
+
+.howmuchvisitor {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 999999999;
+}
+
 body {
     overflow:hidden;
     background: #10092e;
@@ -616,7 +626,7 @@ body > div.box-info1 > div.about-me.skill.testi > div.testi-items.owl-carousel.o
                 
             } .detail {
                 text-align:center;
-                padding:pxtovw(15, 1920);
+                padding:0 pxtovw(15, 1920);
                 padding-top: unset;
                 background:$dark_header2;    
                 h3 {

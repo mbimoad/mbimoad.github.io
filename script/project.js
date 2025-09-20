@@ -1,24 +1,136 @@
 const data = [
+  {
+    "title": "Idle Brick Breaker",
+    "github": "#",
+    "image": "./port/port14.webp",
+    "description": "A landing page for the Idle Brick Breaker game, featuring a sleek layout, game highlights, and engaging visuals to attract and inform potential players.",
+    "tags": ["SASS", "JS"]
+  },
+  {
+    "title": "2D Paralax",
+    "github": "#",
+    "image": "./port/64268587cce81.webp",
+    "description": "A parallax illustration website uses scrolling and animated illustrations to create depth and interactivity for users navigating through it.",
+    "tags": ["HTML", "SASS"]
+  },
+  {
+    "title": "Corona Virus 2020",
+    "github": "#",
+    "image": "./port/64267c64bec17.webp",
+    "description": "A responsive HTML, CSS, and JS project designed to provide vital information and resources during the pandemic.",
+    "tags": ["HTML", "CSS", "JS"]
+  },
+ 
+  {
+    "title": "Chicken Vs Zombie",
+    "github": "#",
+    "image": "./port/port12.webp",
+    "description": "A landing page design for the Chicken Vs Zombie game, featuring engaging visuals, catchy content, and a modern layout to attract players.",
+    "tags": ["SASS", "JS"]
+  }, 
+  {
+    "title": "Wedding Invitation",
+    "github": "#",
+    "image": "./port/642689077c645.webp",
+    "description": "A wedding invitation website is an online platform for engaged couples to create and send digital invitations for their wedding events.",
+    "tags": ["PHP", "JQUERY", "CSS"]
+  },
+  {
+    "title": "Cartoon Paralax",
+    "github": "#",
+    "image": "./port/6426839a4103b.webp",
+    "description": "A parallax illustration website uses scrolling and animated illustrations to create depth and interactivity for users navigating through it.",
+    "tags": ["HTML", "SASS"]
+  },
+  {
+    "title": "Microsoft App Store Redesign",
+    "github": "#",
+    "image": "./port/port11.webp",
+    "description": "A redesigned concept of the Microsoft App Store website with a modern interface, improved user experience, and cleaner layout.",
+    "tags": ["SASS", "JS"]
+  }, 
+  {
+    "title": "Chicken Evolution",
+    "github": "#",
+    "image": "./port/port13.webp",
+    "description": "A promotional landing page for the Chicken Evolution game, showcasing dynamic visuals, playful copywriting, and a clean design to capture player interest.",
+    "tags": ["SASS", "JS"]
+  },
+  {
+    "title": "Chicken Road",
+    "github": "#",
+    "image": "./port/port10.webp",
+    "description": "An arcade-style game where players control a chicken that must hop and cross busy roads without getting hit by vehicles.",
+    "tags": ["SASS", "JS"]
+  }, 
+  {
+    "title": "Machine Monitoring",
+    "github": "#",
+    "image": "./port/monitoring.webp",
+    "description": "Integrating Codeigniter and SASS with cutting-edge 3D design for a visually immersive experience in machine monitoring and management.",
+    "tags": ["CODEIGNITER", "SASS"]
+  },
+  {
+    "title": "PT Delta Systech Indonesia",
+    "github": "#",
+    "image": "./port/port1.webp",
+    "description": "A Laravel-powered web app featuring a dynamic landing page, robust post and any feature capabilities, also innovative design from scratch. build by SASS",
+    "tags": ["LARAVEL", "SASS"]
+  },
+  {
+    "title": "Ingenios",
+    "github": "#",
+    "image": "./port/ingenios.webp",
+    "description": "Ingenios leverages Django and SASS to deliver a polished web experience, blending robust functionality with elegant design.",
+    "tags": ["DJANGO", "SASS"]
+  },
+  {
+    "title": "First Portfolio Project",
+    "github": "#",
+    "image": "./port/64267eca235c6.webp",
+    "description": "My first portfolio showcases my skills in HTML, CSS, and JavaScript, highlighting creativity and proficiency in web development.",
+    "tags": ["HTML", "CSS", "JS"]
+  },
+   
+  {
+    "title": "Hiking Web Profile",
+    "github": "#",
+    "image": "./port/64268a6e00b8d.webp",
+    "description": "Web slicing converts graphic mockups or wireframes into HTML, CSS, and JavaScript code, translating design into functional web pages.",
+    "tags": ["HTML", "CSS", "JS"]
+  },
+  {
+    "title": "Django Paralax",
+    "github": "#",
+    "image": "./port/django.webp",
+    "description": "Showcasing Django skills with a clean design and interactive features for a dynamic user experience.",
+    "tags": ["DJANGO", "SASS"]
+  },
+
+
+  {
+    "title": "PHP MVC Native",
+    "github": "#",
+    "image": "./port/mvc.webp",
+    "description": "Blending Php Mvc and SASS with advanced 3D design techniques to showcase a dynamic and visually compelling portfolio of projects and achievements.",
+    "tags": ["PHP MVC", "SASS"]
+  },
+  
+  
+
     {
-      "title": "Delta Systech Indonesia",
+      "title": "Health Monitoring System",
       "github": "#",
-      "image": "./port/port1.webp",
-      "description": "A Laravel-powered web app featuring a dynamic landing page, robust post and any feature capabilities, also innovative design from scratch. build by SASS",
-      "tags": ["LARAVEL", "SASS"]
+      "image": "./port/6426fff4651c4.webp",
+      "description": "Primary health facilities prioritize promotive and preventive efforts, providing community and individual health services at the grassroots level.",
+      "tags": ["CODEIGNITER"]
     },
     {
-      "title": "Ingenios",
+      "title": "Ecommerce Minimalist",
       "github": "#",
-      "image": "./port/ingenios.webp",
-      "description": "Ingenios leverages Django and SASS to deliver a polished web experience, blending robust functionality with elegant design.",
-      "tags": ["DJANGO", "SASS"]
-    },
-    {
-      "title": "Machine Monitoring",
-      "github": "#",
-      "image": "./port/monitoring.webp",
-      "description": "Integrating Codeigniter and SASS with cutting-edge 3D design for a visually immersive experience in machine monitoring and management.",
-      "tags": ["CODEIGNITER", "SASS"]
+      "image": "./port/port15.webp",
+      "description": "A minimalist e-commerce concept built with JavaScript, focusing on a clean layout, simplified shopping flow, and modern user experience.",
+      "tags": ["SASS", "JS"]
     },
     {
       "title": "Plair Studio",
@@ -28,59 +140,27 @@ const data = [
       "tags": ["FLASK", "SASS"]
     },
     {
-      "title": "Health Monitoring",
-      "github": "#",
-      "image": "./port/6426fff4651c4.webp",
-      "description": "Primary health facilities prioritize promotive and preventive efforts, providing community and individual health services at the grassroots level.",
-      "tags": ["CODEIGNITER"]
-    },
-    {
-      "title": "Portfolio Website",
+      "title": "Node JS Portfolio",
       "github": "#",
       "image": "./port/node.webp",
       "description": "Showcasing Node.js skills with a clean design and interactive features for a dynamic user experience.",
       "tags": ["NODE JS"]
     },
+    
     {
-      "title": "Paralax Ilustration",
-      "github": "#",
-      "image": "./port/django.webp",
-      "description": "Showcasing Django skills with a clean design and interactive features for a dynamic user experience.",
-      "tags": ["DJANGO", "SASS"]
-    },
-    {
-      "title": "Portfolio Website",
+      "title": "Vue JS Portfolio",
       "github": "#",
       "image": "./port/vuejs.webp",
       "description": "Showcasing Vue JS skills with a clean design and interactive features for a dynamic user experience.",
       "tags": ["VUE JS"]
     },
-    {
-      "title": "Portfolio Project",
-      "github": "#",
-      "image": "./port/mvc.webp",
-      "description": "Blending Php Mvc and SASS with advanced 3D design techniques to showcase a dynamic and visually compelling portfolio of projects and achievements.",
-      "tags": ["PHP MVC", "SASS"]
-    },
-    {
-      "title": "Corona Virus Profile",
-      "github": "#",
-      "image": "./port/64267c64bec17.webp",
-      "description": "A responsive HTML, CSS, and JS project designed to provide vital information and resources during the pandemic.",
-      "tags": ["HTML", "CSS", "JS"]
-    },
+
+    
     {
       "title": "Teamwork Web Profile",
       "github": "#",
       "image": "./port/64267cfeb1e58.webp",
       "description": "Our business thrives on teamwork, believing it drives exceptional results by fostering collaboration and leveraging collective strengths.",
-      "tags": ["HTML", "CSS", "JS"]
-    },
-    {
-      "title": "Portfolio Project",
-      "github": "#",
-      "image": "./port/64267eca235c6.webp",
-      "description": "My first portfolio showcases my skills in HTML, CSS, and JavaScript, highlighting creativity and proficiency in web development.",
       "tags": ["HTML", "CSS", "JS"]
     },
     {
@@ -90,27 +170,7 @@ const data = [
       "description": "Web slicing converts graphic mockups or wireframes into HTML, CSS, and JavaScript code, translating design into functional web pages.",
       "tags": ["HTML", "CSS", "JS"]
     },
-    {
-      "title": "Hiking Web Profile",
-      "github": "#",
-      "image": "./port/64268a6e00b8d.webp",
-      "description": "Web slicing converts graphic mockups or wireframes into HTML, CSS, and JavaScript code, translating design into functional web pages.",
-      "tags": ["HTML", "CSS", "JS"]
-    },
-    {
-      "title": "Paralax Ilustration",
-      "github": "#",
-      "image": "./port/6426839a4103b.webp",
-      "description": "A parallax illustration website uses scrolling and animated illustrations to create depth and interactivity for users navigating through it.",
-      "tags": ["HTML", "SASS"]
-    },
-    {
-      "title": "Paralax Ilustration",
-      "github": "#",
-      "image": "./port/64268587cce81.webp",
-      "description": "A parallax illustration website uses scrolling and animated illustrations to create depth and interactivity for users navigating through it.",
-      "tags": ["HTML", "SASS"]
-    },
+    
     {
       "title": "Wedding Invitation",
       "github": "#",
@@ -118,13 +178,7 @@ const data = [
       "description": "A wedding invitation website is an online platform for engaged couples to create and send digital invitations for their wedding events.",
       "tags": ["PHP", "JQUERY", "CSS"]
     },
-    {
-      "title": "Wedding Invitation",
-      "github": "#",
-      "image": "./port/642689077c645.webp",
-      "description": "A wedding invitation website is an online platform for engaged couples to create and send digital invitations for their wedding events.",
-      "tags": ["PHP", "JQUERY", "CSS"]
-    },
+  
     {
       "title": "Wedding Invitation",
       "github": "#",
@@ -139,6 +193,14 @@ const data = [
       "description": "Utilizing WordPress to present comprehensive information about clinic services and enhance patient engagement online.",
       "tags": ["WORDPRESS"]
     },
+    
+    
+    
+  
+   
+    
+  
+  
 ]
   
 
@@ -167,7 +229,7 @@ const jobs = [
   {
       "title": "IT Programmer",
       "date": "January 2024 - Now",
-      "location": "PT Taekwang Indonesia, Indonesia",
+      "location": "PT TKG Taekwang Indonesia, Indonesia",
       "type": "Work On Office",
       "jobdesc": [
           "Crafted and evolved applications based on industry needs.",

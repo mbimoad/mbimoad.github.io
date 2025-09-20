@@ -7,182 +7,156 @@
     top: 0;
   }
   .box-info1 .about-me.skill .skill-title {
-    margin-bottom: 7.82269vw;
+    margin-bottom: 7.8226857888vw;
   }
   .box-info1 .about-me.skill .skill-title h1 {
-    font-size: 5.21512vw;
+    font-size: 5.2151238592vw;
     font-weight: bold;
   }
   .box-info1 .about-me.skill .skill-title p {
-    margin-top: 1.30378vw;
-    width: 91.26467vw;
-    font-size: 2.60756vw;
-    line-height: 3.25945vw;
+    margin-top: 1.3037809648vw;
+    width: 91.2646675359vw;
+    font-size: 2.6075619296vw;
+    line-height: 3.259452412vw;
   }
   .box-info1 .about-me.skill .skill-items .icon {
-    gap: 2.60756vw;
+    gap: 2.6075619296vw;
   }
   .box-info1 .about-me.skill .skill-items .icon span {
-    font-size: 2.60756vw;
+    font-size: 2.6075619296vw;
   }
   .box-info1 .about-me.skill .skill-items .icon svg {
-    width: 7.82269vw;
-    height: 7.82269vw;
+    width: 7.8226857888vw;
+    height: 7.8226857888vw;
   }
   .box-info1 .about-me.skill .testi-items .card {
-    width: 58.67014vw;
-    padding: 2.60756vw;
+    width: 58.6701434159vw;
+    padding: 2.6075619296vw;
   }
   .box-info1 .about-me.skill .testi-items .card .header {
-    margin-bottom: 2.60756vw;
+    margin-bottom: 2.6075619296vw;
   }
   .box-info1 .about-me.skill .testi-items .card .header img {
-    border-radius: 1.95567vw;
-    top: -5.86701vw;
-    width: 9.12647vw;
-    height: 9.12647vw;
-    border: 0.39113vw solid #6b0aeb;
+    border-radius: 1.9556714472vw;
+    top: -5.8670143416vw;
+    width: 9.1264667536vw;
+    height: 9.1264667536vw;
+    border: 0.3911342894vw solid #6b0aeb;
   }
   .box-info1 .about-me.skill .testi-items .card .header span {
-    font-size: 2.86832vw;
-    -webkit-transform: translate(11.73403vw, 0);
-            transform: translate(11.73403vw, 0);
+    font-size: 2.8683181226vw;
+    transform: translate(11.7340286832vw, 0);
   }
   .box-info1 .about-me.skill .testi-items .card .footer {
-    margin-top: 3.91134vw;
+    margin-top: 3.9113428944vw;
   }
   .box-info1 .about-me.skill .testi-items .card .footer .left,
   .box-info1 .about-me.skill .testi-items .card .footer .right {
-    gap: 1.30378vw;
+    gap: 1.3037809648vw;
     margin: unset;
   }
   .box-info1 .about-me.skill .testi-items .card .footer .right {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
   }
   .box-info1 .about-me.skill .testi-items .card .footer span {
-    font-size: 1.95567vw;
+    font-size: 1.9556714472vw;
     line-height: 1.5;
   }
   .box-info1 .about-me.skill .testi-items .card .footer img {
-    width: 2.60756vw;
-    height: 2.60756vw;
+    width: 2.6075619296vw;
+    height: 2.6075619296vw;
   }
   .box-info1 .about-me.skill .testi-items .card p {
-    font-size: 2.34681vw;
+    font-size: 2.3468057366vw;
   }
   .box-info1 .about-me {
-    padding: 10.43025vw 5.21512vw;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    padding: 10.4302477184vw 5.2151238592vw;
+    flex-direction: column-reverse;
   }
   .box-info1 .about-me .right {
     width: 40%;
-    margin-bottom: 3.91134vw;
+    margin-bottom: 3.9113428944vw;
   }
   .box-info1 .about-me .right .frame .rectangle {
-    width: 35.20209vw;
-    height: 35.20209vw;
+    width: 35.2020860495vw;
+    height: 35.2020860495vw;
   }
   .box-info1 .about-me .left {
     width: unset;
   }
   .box-info1 .about-me .left h5 {
-    font-size: 3.25945vw;
+    font-size: 3.259452412vw;
   }
   .box-info1 .about-me .left h1 {
-    font-size: 7.82269vw;
+    font-size: 7.8226857888vw;
     font-weight: bold;
   }
   .box-info1 .about-me .left p {
-    font-size: 2.9987vw;
-    line-height: 5.08475vw;
+    font-size: 2.998696219vw;
+    line-height: 5.0847457627vw;
   }
   .box-info1 .about-me .left .buttons {
-    gap: 1.95567vw;
+    gap: 1.9556714472vw;
   }
   .box-info1 .about-me .left .buttons .button {
-    font-size: 2.60756vw;
-    padding: 0.91265vw 1.56454vw;
+    font-size: 2.6075619296vw;
+    padding: 0.9126466754vw 1.5645371578vw;
   }
   .box-info1 .about-me .left .buttons .button svg {
-    width: 3.52021vw;
-    height: 3.52021vw;
+    width: 3.520208605vw;
+    height: 3.520208605vw;
   }
   .box-info1 .about-me .left .buttons a svg {
-    width: 3.52021vw;
-    height: 3.52021vw;
+    width: 3.520208605vw;
+    height: 3.520208605vw;
   }
   .box-info1 .about-me .left .buttons .buttonicon svg {
-    width: 3.52021vw;
-    height: 3.52021vw;
-  }
-  @-webkit-keyframes stars_animate {
-    from {
-      -webkit-transform: translate(0, 50px);
-              transform: translate(0, 50px);
-    }
-    to {
-      -webkit-transform: translate(-100%, 50px);
-              transform: translate(-100%, 50px);
-    }
+    width: 3.520208605vw;
+    height: 3.520208605vw;
   }
   @keyframes stars_animate {
     from {
-      -webkit-transform: translate(0, 50px);
-              transform: translate(0, 50px);
+      transform: translate(0, 50px);
     }
     to {
-      -webkit-transform: translate(-100%, 50px);
-              transform: translate(-100%, 50px);
+      transform: translate(-100%, 50px);
     }
   }
   body.dark header .menu {
-    background: #2f14814a;
+    background: rgba(47, 20, 129, 0.2901960784);
   }
   body.light header .menu {
-    background: #1459814a;
+    background: rgba(20, 89, 129, 0.2901960784);
   }
   header {
     z-index: 9999999;
-    padding: 5.21512vw 5.21512vw;
+    padding: 5.2151238592vw 5.2151238592vw;
   }
   header .logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     color: white;
-    gap: 0.65189vw;
+    gap: 0.6518904824vw;
   }
   header .logo h1 {
-    font-size: 6.5189vw;
+    font-size: 6.518904824vw;
     font-weight: bold;
   }
   header .logo span {
-    font-size: 3.25945vw;
+    font-size: 3.259452412vw;
   }
   header .menu {
     width: 85%;
-    border-radius: 19.55671vw;
+    border-radius: 19.556714472vw;
     left: 0;
     right: 0;
     margin: auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 5.21512vw;
-    padding: 1.30378vw 0;
+    justify-content: center;
+    align-items: center;
+    gap: 5.2151238592vw;
+    padding: 1.3037809648vw 0;
     position: fixed;
-    bottom: 9.12647vw;
+    bottom: 9.1264667536vw;
   }
   header .menu li:nth-child(1),
   header .menu li:nth-child(5) {
@@ -190,7 +164,7 @@
   }
   header .menu li a {
     color: white;
-    font-size: 2.60756vw;
+    font-size: 2.6075619296vw;
   }
   header .menu li {
     cursor: pointer;
@@ -198,36 +172,23 @@
   }
   header .menu li svg {
     display: unset;
-    width: 3.91134vw;
-    height: 3.91134vw;
+    width: 3.9113428944vw;
+    height: 3.9113428944vw;
   }
   header .menu li {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 1.56454vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5645371578vw;
   }
   header .option {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 2.60756vw;
+    align-items: center;
+    gap: 2.6075619296vw;
   }
   header .option svg {
-    width: 3.91134vw;
+    width: 3.9113428944vw;
     height: auto;
   }
   header .option .optionbtn svg {
@@ -236,38 +197,34 @@
   .dashboard .hello-box {
     top: 30%;
     width: 75%;
-    gap: 2.60756vw;
+    gap: 2.6075619296vw;
     z-index: 1;
   }
   .dashboard .hello-box h1 {
-    font-size: 7.04042vw;
+    font-size: 7.0404172099vw;
   }
   .dashboard .hello-box p {
-    font-size: 2.9987vw;
-    line-height: 5.21512vw;
+    font-size: 2.998696219vw;
+    line-height: 5.2151238592vw;
   }
   .dashboard .hello-box button {
-    font-size: 2.9987vw;
+    font-size: 2.998696219vw;
   }
   .dashboard .components .stars .star {
-    -webkit-transform: translate(0, 50px);
-            transform: translate(0, 50px);
+    transform: translate(0, 50px);
     width: 300%;
-    -webkit-animation: stars_animate  30s linear 0s infinite;
-            animation: stars_animate  30s linear 0s infinite;
+    animation: stars_animate 30s linear 0s infinite;
   }
   .dashboard .components .clouds .cloud {
-    -webkit-transform: translate(0, 50px);
-            transform: translate(0, 50px);
+    transform: translate(0, 50px);
     width: 200%;
-    -webkit-animation: stars_animate  30s linear 0s infinite;
-            animation: stars_animate  30s linear 0s infinite;
+    animation: stars_animate 30s linear 0s infinite;
   }
   .dashboard .components .moon {
     left: 6%;
     top: 12%;
-    height: 13.03781vw;
-    width: 13.03781vw;
+    height: 13.037809648vw;
+    width: 13.037809648vw;
   }
   .dashboard .components .mountain {
     position: absolute;
@@ -288,11 +245,10 @@
   }
   .box-info1,
   .box-info2 {
-    -webkit-transition: all 500ms ease 0s;
     transition: all 500ms ease 0s;
   }
-  .box-info1
-, .box-info2 {
+  .box-info1,
+  .box-info2 {
     position: relative;
     z-index: 99999;
   }
@@ -306,59 +262,46 @@
     background: #1b8991;
   }
   .box-info2 .cards .card .images a.github {
-    width: 3.25945vw;
-    height: 3.25945vw;
+    width: 3.259452412vw;
+    height: 3.259452412vw;
   }
   .box-info2 .cards .card .images a.github svg {
-    width: 1.95567vw;
+    width: 1.9556714472vw;
     height: auto;
   }
   .box-info2 .about-me.skill .skill-title {
     padding: unset !important;
   }
   .box-info2 .about-me.skill.education {
-    padding: 3.91134vw;
-    padding-bottom: 6.5189vw;
+    padding: 3.9113428944vw;
+    padding-bottom: 6.518904824vw;
   }
   .box-info2 .about-me.skill.education .skill-title {
-    margin-bottom: 5.21512vw;
+    margin-bottom: 5.2151238592vw;
     padding: unset;
   }
   .box-info2 .about-me.skill.education .skill-items.education {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs {
-    padding-left: 3.91134vw;
-    border-left: 1.30378vw solid #0100307a;
+    padding-left: 3.9113428944vw;
+    border-left: 1.3037809648vw solid rgba(1, 0, 48, 0.4784313725);
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 5.21512vw;
+    flex-direction: column;
+    gap: 5.2151238592vw;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box:nth-child(even) {
     background: #16005a;
-    border: 0.65189vw solid #00ccff;
-    -webkit-box-shadow: 0 0 1.30378vw #00ccff;
-            box-shadow: 0 0 1.30378vw #00ccff;
+    border: 0.6518904824vw solid #00ccff;
+    box-shadow: 0 0 1.3037809648vw #00ccff;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box:nth-child(odd) {
-    background: #0100307a;
-    border: 0.65189vw solid #0dffb0;
-    -webkit-box-shadow: 0 0 1.30378vw #0dffb0;
-            box-shadow: 0 0 1.30378vw #0dffb0;
+    background: rgba(1, 0, 48, 0.4784313725);
+    border: 0.6518904824vw solid #0dffb0;
+    box-shadow: 0 0 1.3037809648vw #0dffb0;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box:nth-child(even)::after {
     background: #00ccff;
@@ -368,229 +311,195 @@
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box::after {
     position: absolute;
-    content: '';
-    width: 3.91134vw;
-    height: 3.91134vw;
+    content: "";
+    width: 3.9113428944vw;
+    height: 3.9113428944vw;
     top: 40%;
-    left: -7.1708vw;
+    left: -7.1707953064vw;
     border-radius: 50%;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box {
     position: relative;
-    border-radius: 2.60756vw;
-    padding: 2.60756vw 3.91134vw;
+    border-radius: 2.6075619296vw;
+    padding: 2.6075619296vw 3.9113428944vw;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box .semi-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 1.95567vw;
+    align-items: center;
+    gap: 1.9556714472vw;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box .header {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    align-items: flex-end;
+    justify-content: space-between;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box .header h3 {
-    font-size: 3.25945vw;
+    font-size: 3.259452412vw;
     font-weight: bold;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box .header .calendar {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    gap: 0.65189vw;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    gap: 0.6518904824vw;
+    align-items: center;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box .header .calendar svg {
-    width: 1.69492vw;
+    width: 1.6949152542vw;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box .header .calendar span {
-    font-size: 1.95567vw;
+    font-size: 1.9556714472vw;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box .semi-header svg {
-    width: 2.08605vw;
+    width: 2.0860495437vw;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box .semi-header span {
     color: #eeff00;
-    font-size: 2.34681vw;
+    font-size: 2.3468057366vw;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box ul.job-desk {
-    margin-left: 3.91134vw;
+    margin-left: 3.9113428944vw;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box ul.job-desk li {
-    font-size: 2.47718vw;
+    font-size: 2.4771838331vw;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box .footer {
-    margin-top: 1.95567vw;
+    margin-top: 1.9556714472vw;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box .footer span {
-    font-size: 2.34681vw;
+    font-size: 2.3468057366vw;
   }
   .box-info2 .about-me.skill.education .skill-items.education .boxs .box .footer span:last-child {
     color: #00ccff;
   }
   .box-info2 .box-info1 .about-me .left .buttons .button {
-    padding: 1.95567vw 1.95567vw;
+    padding: 1.9556714472vw 1.9556714472vw;
   }
   .box-info2 .searchs {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-top: 2.60756vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.6075619296vw;
   }
   .box-info2 .searchs button.submit {
     background: #6b0aeb;
     color: white;
-    padding: 0.65189vw 1.30378vw;
+    padding: 0.6518904824vw 1.3037809648vw;
     border: unset;
     outline: unset;
-    font-size: 2.34681vw;
+    font-size: 2.3468057366vw;
     min-height: 32px;
   }
   .box-info2 .section1 {
-    gap: 5.21512vw;
-    padding: 0 3.25945vw;
-    margin-top: 1.95567vw;
+    gap: 5.2151238592vw;
+    padding: 0 3.259452412vw;
+    margin-top: 1.9556714472vw;
   }
   .box-info2 .about-me.skill {
-    padding: 6.5189vw 0;
+    padding: 6.518904824vw 0;
   }
   .box-info2 .about-me.skill .skill-items {
     width: 100%;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    gap: 6.5189vw;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6.518904824vw;
     justify-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
   .box-info2 .about-me.skill .skill-items .icon {
-    gap: 2.60756vw;
+    gap: 2.6075619296vw;
   }
   .box-info2 .about-me.skill .skill-items .icon span {
-    font-size: 2.60756vw;
+    font-size: 2.6075619296vw;
   }
   .box-info2 .about-me.skill .skill-items .icon svg {
-    width: 7.82269vw;
-    height: 7.82269vw;
+    width: 7.8226857888vw;
+    height: 7.8226857888vw;
   }
   .box-info2 .about-me.skill .skill-items .icon img {
-    width: 19.55671vw;
+    width: 19.556714472vw;
     height: auto;
   }
   .box-info2 .about-me.skill .skill-title {
-    margin-bottom: 5.21512vw;
+    margin-bottom: 5.2151238592vw;
     text-align: center;
-    padding: 5.21512vw 10.43025vw;
+    padding: 5.2151238592vw 10.4302477184vw;
   }
   .box-info2 .about-me.skill .skill-title h1 {
-    font-size: 5.21512vw;
+    font-size: 5.2151238592vw;
     font-weight: bold;
   }
   .box-info2 .about-me.skill .skill-title p {
-    margin-top: 1.30378vw;
-    width: 91.26467vw;
-    font-size: 2.60756vw;
-    line-height: 3.25945vw;
+    margin-top: 1.3037809648vw;
+    width: 91.2646675359vw;
+    font-size: 2.6075619296vw;
+    line-height: 3.259452412vw;
   }
   .box-info2 .about-me.skill .cards {
-    gap: 3.91134vw;
+    gap: 3.9113428944vw;
   }
   .box-info2 .about-me.skill .card {
-    width: 36.50587vw;
-    padding: 1.30378vw;
-    border-radius: 2.60756vw;
+    width: 36.5058670143vw;
+    padding: 1.3037809648vw;
+    border-radius: 2.6075619296vw;
   }
   .box-info2 .about-me.skill .card .header {
-    gap: 3.91134vw;
-    margin-bottom: 2.60756vw;
+    gap: 3.9113428944vw;
+    margin-bottom: 2.6075619296vw;
   }
   .box-info2 .about-me.skill .card .header img {
-    border-radius: 1.95567vw;
-    top: -5.86701vw;
-    width: 9.12647vw;
-    height: 9.12647vw;
-    border: 0.39113vw solid #6b0aeb;
+    border-radius: 1.9556714472vw;
+    top: -5.8670143416vw;
+    width: 9.1264667536vw;
+    height: 9.1264667536vw;
+    border: 0.3911342894vw solid #6b0aeb;
   }
   .box-info2 .about-me.skill .card .header span {
-    -webkit-transform: translate(11.73403vw, 0);
-            transform: translate(11.73403vw, 0);
-    font-size: 2.86832vw;
+    transform: translate(11.7340286832vw, 0);
+    font-size: 2.8683181226vw;
   }
   .box-info2 .about-me.skill .card .detail {
     text-align: center;
-    padding: 1.95567vw;
+    padding: 1.9556714472vw;
     padding-top: unset;
-    background: #18025a;
+    background: rgb(24, 2, 90);
   }
   .box-info2 .about-me.skill .card .detail h3 {
     font-weight: bold;
-    font-size: 3.25945vw;
+    font-size: 3.259452412vw;
   }
   .box-info2 .about-me.skill .card .detail p {
-    font-size: 2.21643vw;
+    font-size: 2.2164276402vw;
   }
   .box-info2 .about-me.skill .card .footer {
-    margin-top: 1.30378vw;
+    margin-top: 1.3037809648vw;
   }
   .box-info2 .about-me.skill .card .footer .left,
   .box-info2 .about-me.skill .card .footer .right {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    gap: 1.30378vw;
+    justify-content: flex-end;
+    gap: 1.3037809648vw;
   }
   .box-info2 .about-me.skill .card .footer span {
-    font-size: 1.95567vw;
+    font-size: 1.9556714472vw;
   }
   .box-info2 .about-me.skill .card .footer img {
-    width: 2.60756vw;
-    height: 2.60756vw;
+    width: 2.6075619296vw;
+    height: 2.6075619296vw;
   }
   .box-info2 .about-me.skill .card p {
-    font-size: 2.34681vw;
+    font-size: 2.3468057366vw;
   }
   body > div.box-info2 > div > div > div.skill-title > div > span {
-    width: 39.11343vw !important;
-    background: #0100307a;
+    width: 39.1134289439vw !important;
+    background: rgba(1, 0, 48, 0.4784313725);
     overflow: hidden !important;
   }
   body > div.box-info2 > div > div > div.skill-title > div > span > span.selection > span {
     background: transparent !important;
     border: unset !important;
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
     display: flex !important;
   }
   .select2-container .select2-selection--multiple .select2-selection__rendered {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
     display: flex !important;
   }
   .select2-container .select2-selection--multiple .select2-selection__rendered li:nth-child(1n) {
@@ -608,11 +517,10 @@
   .select2-container .select2-selection--multiple .select2-selection__rendered li button, .select2-container .select2-selection--multiple .select2-selection__rendered li span {
     border: unset !important;
     color: white !important;
-    font-size: 2.34681vw !important;
+    font-size: 2.3468057366vw !important;
   }
   .select2-container .select2-selection--multiple .select2-selection__rendered li button {
-    width: 1.69492vw;
-    height: 1.69492vw;
+    width: 1.6949152542vw;
+    height: 1.6949152542vw;
   }
-}
-/*# sourceMappingURL=tablet.css.map */
+}/*# sourceMappingURL=tablet.css.map */
