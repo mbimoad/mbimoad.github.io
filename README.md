@@ -1,4 +1,4 @@
-# 👋 Hello, I'm Moad
+# 👋 Hello, I'm mbimoad
 
 Welcome to my GitHub portfolio.
 
